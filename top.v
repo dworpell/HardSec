@@ -43,7 +43,6 @@ module ro(clock, puf_out);
 	 assign enablemux2= (clockcounter_out==12'hfff) ? 1:0;
 	 assign enablemux1= (clockcounter_out==12'hfff && mathstuff[3:0]==4'hf ) ? 1:0;
 	 assign resetmux2 = ((clockcounter_out==12'hfff && mathstuff==12'd15) || reset) ? 1:0;
-	 
 	 counter12 muxincoconut  (muxin1, enablemux1, clock, reset);
 	 counter12 mux2incoconut  (muxin2, enablemux2, clock, reset);
 	 
@@ -51,12 +50,21 @@ module ro(clock, puf_out);
 	 wire fenable, freset;
 	 assign fenable = (enable && clockcounter_out>12'h002) ? 1:0;
 	 assign freset  = (reset || clockcounter_out <= 12'h002) ? 1:0;
+   wire [16][11:0] counter_outs;
+   wire [16] outs;
 	 counter12 clock_counter (clockcounter_out, enable, clock, reset);
 	 counter12 mux1_counter  (counter1_out, enable1, mux1_out, reset1);
 	 counter12 mux2_counter  (counter2_out, enable2, mux2_out, reset1);
 	 always @(posedge clock) begin
 		puf_out=(counter1_out > counter2_out) ? 1:0;
 	 end
+   generate
+    genvar i;
+    for (i=0; i<15; i++) begin: ro  
+      counter12 ro_counter (counter_outs[i], enable1, outs[i], reset1); 
+      ringoscillator ro (fenable, freset, outs[i]);
+    end
+   endgenerate 
 	 ringoscillator ro1  (fenable, freset,  out1);
 	 ringoscillator ro2  (fenable, freset,  out2);
 	 ringoscillator ro3  (fenable, freset,  out3);
