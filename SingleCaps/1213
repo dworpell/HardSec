@@ -1,0 +1,17 @@
+Sample in Buffer	Sample in Window	pufout	DataPort[1]	DataPort[2]	DataPort[3]	DataPort[4]	DataPort[5]	DataPort[6]	DataPort[7]	DataPort[8]	DataPort[9]	DataPort[10]	DataPort[11]	DataPort[12]	DataPort[13]	DataPort[14]	DataPort[15]	DataPort[16]	DataPort[17]	DataPort[18]	DataPort[19]	DataPort[20]	DataPort[21]	DataPort[22]	DataPort[23]	DataPort[24]	mux1_out	DataPort[26]	DataPort[27]	DataPort[28]	DataPort[29]	DataPort[30]	DataPort[31]	DataPort[32]	DataPort[33]	DataPort[34]	DataPort[35]	DataPort[36]	DataPort[37]	clockcounter_out	counter1_out	counter2_out
+0	0	0	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	BFF	C17	
+1	1	0	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	BFF	C17	
+2	2	0	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	BFF	C17	
+3	3	1	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	CFF	C17	
+4	4	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C17	
+5	5	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C17	
+6	6	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C17	
+7	7	0	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	BFF	C17	
+8	8	0	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	BFF	C17	
+9	9	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C01	C18	
+10	10	0	1	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C01	C17	
+11	11	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C17	
+12	12	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C17	
+13	13	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C18	
+14	14	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C18	
+15	15	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C00	C17	

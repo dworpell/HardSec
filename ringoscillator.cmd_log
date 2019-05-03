@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.xst" -ofn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc5vlx110t-ff1136-1 ringoscillator.ngc ringoscillator.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ringoscillator_map.ncd ringoscillator.ngd ringoscillator.pcf 
+par -w -intstyle ise -ol high -mt off ringoscillator_map.ncd ringoscillator.ncd ringoscillator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ringoscillator.twx ringoscillator.ncd -o ringoscillator.twr ringoscillator.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.xst" -ofn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc5vlx110t-ff1136-1 ringoscillator.ngc ringoscillator.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ringoscillator_map.ncd ringoscillator.ngd ringoscillator.pcf 
+par -w -intstyle ise -ol high -mt off ringoscillator_map.ncd ringoscillator.ncd ringoscillator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ringoscillator.twx ringoscillator.ncd -o ringoscillator.twr ringoscillator.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.xst" -ofn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc5vlx110t-ff1136-1 ringoscillator.ngc ringoscillator.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ringoscillator_map.ncd ringoscillator.ngd ringoscillator.pcf 
+par -w -intstyle ise -ol high -mt off ringoscillator_map.ncd ringoscillator.ncd ringoscillator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ringoscillator.twx ringoscillator.ncd -o ringoscillator.twr ringoscillator.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.xst" -ofn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc5vlx110t-ff1136-1 ringoscillator.ngc ringoscillator.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ringoscillator_map.ncd ringoscillator.ngd ringoscillator.pcf 
+par -w -intstyle ise -ol high -mt off ringoscillator_map.ncd ringoscillator.ncd ringoscillator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ringoscillator.twx ringoscillator.ncd -o ringoscillator.twr ringoscillator.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.xst" -ofn "C:/Users/DanRW/Downloads/ringpuf_student/ringoscillator.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc5vlx110t-ff1136-1 ringoscillator.ngc ringoscillator.ngd  

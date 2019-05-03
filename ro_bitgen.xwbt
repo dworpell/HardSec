@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\rdavi\Downloads\ringpuf_student\ro.ncd
+OUTFILE=C:\Users\rdavi\Downloads\ringpuf_student\ro.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=C:\Users\rdavi\Downloads\ringpuf_student
+LICENSE=ISE
+USER_INFO=174621394_1777526976_210699534_260

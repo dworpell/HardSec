@@ -1,0 +1,173 @@
+#:C63    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\DanRW\Downloads\ringpuf_student
+#Date/Time:
+#:T   Sun Mar 24 03:54:55 2019
+#------------------------------
+	#Reading ringoscillator.ncd...
+	#Loading device for application Rf_Device from file '5vlx110t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "ringoscillator" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+	#Design creation date: 2019.03.24.07.54.07
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+post attr main
+	#Getting available speed grades of the device...
+	#3
+setattr main edit-mode Read-Write
+	#4
+setattr main case_sensitive off
+	#5
+setattr main case_sensitive off
+	#6
+unpost main
+	#7
+select -k comp 'dffout'
+	#8
+unplace
+	#Unplacing selected components and macros...
+	#Unplacing selected components and macros completed.
+	#9
+unselect comp 'dffout'
+	#10
+select -k comp 'enable'
+	#11
+unplace
+	#Unplacing selected components and macros...
+	#Unplacing selected components and macros completed.
+	#12
+unselect comp 'enable'
+	#13
+select -k comp 'reset'
+	#14
+unplace
+	#Unplacing selected components and macros...
+	#Unplacing selected components and macros completed.
+	#15
+delete
+	#WARNING:FPGAEditor:170 - Net "reset_IBUF" now has no driver pin.
+	#16
+select -k comp 'enable'
+	#17
+delete
+	#WARNING:FPGAEditor:170 - Net "enable_IBUF" now has no driver pin.
+	#18
+select -k comp 'dffout'
+	#19
+delete
+	#20
+post saveas
+	#21
+unpost saveas
+	#22
+echo "save -w hm "C:\Users\DanRW\Downloads\ringpuf_student\ringoscillator.nmc""
+	#23
+save -w hm "C:\Users\DanRW\Downloads\ringpuf_student\ringoscillator.nmc"
+	#24
+refresh
+	#25
+select -k comp 'in5'
+	#26
+unselect -all
+	#27
+select -k comp 'in5'
+	#28
+unselect -all
+	#29
+unselect -all
+	#30
+select pin 'SLICE_X46Y98.B2'
+	#site.pin = SLICE_X46Y98.B2, comp.pin = in11.B6, delay = ~0.000ns on net "enable_IBUF"
+	#31
+add extpin
+	#32
+post attr pin SLICE_X46Y98.B2
+	#33
+setattr pin SLICE_X46Y98.B2  external_name enable
+	#34
+unpost pin "SLICE_X46Y98.B2"
+	#35
+unselect -all
+	#36
+unselect -all
+	#37
+select pin 'SLICE_X47Y98.SR'
+	#site.pin = SLICE_X47Y98.SR, comp.pin = dffout_OBUF.SR, delay = ~0.000ns on net "reset_IBUF"
+	#38
+add extpin
+	#39
+post attr pin SLICE_X47Y98.SR
+	#40
+setattr pin SLICE_X47Y98.SR  external_name reset
+	#41
+unpost pin "SLICE_X47Y98.SR"
+	#42
+unselect -all
+	#43
+select pin 'SLICE_X47Y98.DQ'
+	#site.pin = SLICE_X47Y98.DQ, comp.pin = dffout_OBUF.DQ, delay = driver on net "dffout_OBUF"
+	#44
+unselect -all
+	#45
+select pin 'SLICE_X47Y98.D6'
+	#site.pin = SLICE_X47Y98.D6, comp.pin = dffout_OBUF.D4, delay = 0.276ns on net "dffout_OBUF"
+	#46
+add extpin
+	#47
+post attr pin SLICE_X47Y98.D6
+	#48
+unpost pin "SLICE_X47Y98.D6"
+	#49
+unselect -all
+	#50
+select pin 'SLICE_X47Y98.DQ'
+	#site.pin = SLICE_X47Y98.DQ, comp.pin = dffout_OBUF.DQ, hard macro.pin = $extpin, delay = driver on net "dffout_OBUF"
+	#51
+unselect -all
+	#52
+select pin 'SLICE_X47Y98.D6'
+	#site.pin = SLICE_X47Y98.D6, comp.pin = dffout_OBUF.D4, hard macro.pin = $extpin, delay = 0.276ns on net "dffout_OBUF"
+	#53
+post attr
+	#54
+unpost pin "SLICE_X47Y98.D6"
+	#55
+unselect -all
+	#56
+unselect -all
+	#57
+select wire 'OUTPUT(-19560,60720)'
+	#node = OUTPUT(-19560,60720)
+	#58
+post open
+	#59
+unpost open
+	#60
+unselect -all
+	#61
+select pin 'SLICE_X47Y98.D6'
+	#site.pin = SLICE_X47Y98.D6, comp.pin = dffout_OBUF.D4, hard macro.pin = $extpin, delay = 0.276ns on net "dffout_OBUF"
+	#62
+delete
+	#63
+unselect -all
+	#64
+select pin 'SLICE_X47Y98.DQ'
+	#site.pin = SLICE_X47Y98.DQ, comp.pin = dffout_OBUF.DQ, delay = driver on net "dffout_OBUF"
+	#65
+add extpin
+	#66
+post attr pin SLICE_X47Y98.DQ
+	#67
+setattr pin SLICE_X47Y98.DQ  external_name dffout
+	#68
+unpost pin "SLICE_X47Y98.DQ"
+	#69
+unselect -all
+	#70
+save

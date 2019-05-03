@@ -1,0 +1,567 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'ro'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+Target Device  : xc5vlx110t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Fri May 03 19:00:07 2019
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   19
+Slice Logic Utilization:
+  Number of Slice Registers:                   631 out of  69,120    1%
+    Number used as Flip Flops:                 630
+    Number used as Latches:                      1
+  Number of Slice LUTs:                        618 out of  69,120    1%
+    Number used as logic:                      516 out of  69,120    1%
+      Number using O6 output only:             404
+      Number using O5 output only:             101
+      Number using O5 and O6:                   11
+    Number used as Memory:                      87 out of  17,920    1%
+      Number used as Shift Register:            87
+        Number using O6 output only:            86
+        Number using O5 and O6:                  1
+    Number used as exclusive route-thru:        15
+  Number of route-thrus:                       116
+    Number using O6 output only:               116
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   362 out of  17,280    2%
+  Number of LUT Flip Flop pairs used:          935
+    Number with an unused Flip Flop:           304 out of     935   32%
+    Number with an unused LUT:                 317 out of     935   33%
+    Number of fully used LUT-FF pairs:         314 out of     935   33%
+    Number of unique control sets:             142
+    Number of slice register sites lost
+      to control set restrictions:             361 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         2 out of     640    1%
+    Number of LOCed IOBs:                        1 out of       2   50%
+    IOB Flip Flops:                              1
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      10 out of     148    6%
+    Number using BlockRAM only:                 10
+    Total primitives used:
+      Number of 36k BlockRAM used:              10
+    Total Memory used (KB):                    360 out of   5,328    6%
+  Number of BUFG/BUFGCTRLs:                      3 out of      32    9%
+    Number used as BUFGs:                        3
+  Number of BSCANs:                              1 out of       4   25%
+
+  Number of hard macros:          16
+  Number of RPM macros:            5
+Average Fanout of Non-Clock Nets:                2.97
+
+Peak Memory Usage:  4844 MB
+Total REAL time to MAP completion:  1 mins 1 secs 
+Total CPU time to MAP completion:   1 mins 1 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro1/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro2/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro3/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro4/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro5/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro6/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro7/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro8/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro9/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro10/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro11/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro12/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro13/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro14/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro15/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ro16/pufOut is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net mux1_out is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net mux2_out is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ilacntbus<13> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network ilacntbus<10> has no load.
+INFO:LIT:395 - The above info message is repeated 23 more times for the
+   following (max. 5 shown):
+   ilacntbus<11>,
+   ilacntbus<15>,
+   ilacntbus<16>,
+   ilacntbus<17>,
+   ilacntbus<18>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Place:834 - Only a subset of IOs are locked. Out of 2 IOs, 1 are locked and
+   1 are not locked. If you would like to print the names of these IOs, please
+   set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  77 block(s) removed
+  67 block(s) optimized away
+  64 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[10].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[11].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[12].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[13].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[14].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[2].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[3].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[4].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[5].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[6].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[7].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[8].U_LUT" (ROM)
+removed.
+Loadless block "ICON0/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[9].U_LUT" (ROM)
+removed.
+Loadless block "ILA0/U0/I_YES_D.U_ILA/U_STAT/U_DSR" (ROM) removed.
+Loadless block "ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TC/I_STORAGE_QUAL.U_CAP_B" (ROM)
+removed.
+The signal "cntbus<10>" is sourceless and has been removed.
+The signal "cntbus<11>" is sourceless and has been removed.
+The signal "cntbus<12>" is sourceless and has been removed.
+ Sourceless block "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>71" (ROM) removed.
+  The signal "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>71" is sourceless and has been
+removed.
+The signal "cntbus<13>" is sourceless and has been removed.
+The signal "cntbus<14>" is sourceless and has been removed.
+The signal "cntbus<15>" is sourceless and has been removed.
+The signal "cntbus<16>" is sourceless and has been removed.
+The signal "cntbus<17>" is sourceless and has been removed.
+The signal "cntbus<18>" is sourceless and has been removed.
+ Sourceless block "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>35" (ROM) removed.
+  The signal "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>35" is sourceless and has been
+removed.
+The signal "cntbus<19>" is sourceless and has been removed.
+The signal "cntbus<20>" is sourceless and has been removed.
+The signal "cntbus<21>" is sourceless and has been removed.
+The signal "cntbus<22>" is sourceless and has been removed.
+The signal "cntbus<23>" is sourceless and has been removed.
+The signal "cntbus<24>" is sourceless and has been removed.
+ Sourceless block "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>164" (ROM) removed.
+  The signal "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>164" is sourceless and has been
+removed.
+The signal "cntbus<25>" is sourceless and has been removed.
+The signal "cntbus<26>" is sourceless and has been removed.
+The signal "cntbus<27>" is sourceless and has been removed.
+The signal "cntbus<28>" is sourceless and has been removed.
+The signal "cntbus<29>" is sourceless and has been removed.
+The signal "cntbus<30>" is sourceless and has been removed.
+ Sourceless block "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>128" (ROM) removed.
+  The signal "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>128" is sourceless and has been
+removed.
+The signal "cntbus<31>" is sourceless and has been removed.
+The signal "cntbus<32>" is sourceless and has been removed.
+The signal "cntbus<33>" is sourceless and has been removed.
+The signal "cntbus<34>" is sourceless and has been removed.
+The signal "cntbus<35>" is sourceless and has been removed.
+The signal "cntbus<8>" is sourceless and has been removed.
+ Sourceless block "VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>260_SW0" (ROM) removed.
+  The signal "VIO0/N38" is sourceless and has been removed.
+The signal "cntbus<9>" is sourceless and has been removed.
+The signal "ilacntbus<10>" is sourceless and has been removed.
+The signal "ilacntbus<11>" is sourceless and has been removed.
+The signal "ilacntbus<15>" is sourceless and has been removed.
+The signal "ilacntbus<16>" is sourceless and has been removed.
+The signal "ilacntbus<17>" is sourceless and has been removed.
+The signal "ilacntbus<18>" is sourceless and has been removed.
+The signal "ilacntbus<19>" is sourceless and has been removed.
+The signal "ilacntbus<22>" is sourceless and has been removed.
+The signal "ilacntbus<23>" is sourceless and has been removed.
+The signal "ilacntbus<24>" is sourceless and has been removed.
+The signal "ilacntbus<25>" is sourceless and has been removed.
+The signal "ilacntbus<26>" is sourceless and has been removed.
+The signal "ilacntbus<27>" is sourceless and has been removed.
+The signal "ilacntbus<28>" is sourceless and has been removed.
+The signal "ilacntbus<29>" is sourceless and has been removed.
+The signal "ilacntbus<30>" is sourceless and has been removed.
+The signal "ilacntbus<31>" is sourceless and has been removed.
+The signal "ilacntbus<32>" is sourceless and has been removed.
+The signal "ilacntbus<33>" is sourceless and has been removed.
+The signal "ilacntbus<34>" is sourceless and has been removed.
+The signal "ilacntbus<35>" is sourceless and has been removed.
+The signal "ilacntbus<7>" is sourceless and has been removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<6>" is sourceless and has been removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[6].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[6].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[6].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[6].U_LCE" (ROM)
+removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<7>" is sourceless and has been removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[7].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[7].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[7].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[7].U_LCE" (ROM)
+removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<11>" is sourceless and has been
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[11].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[11].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[11].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[11].U_LCE" (ROM)
+removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<12>" is sourceless and has been
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[12].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[12].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[12].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[12].U_LCE" (ROM)
+removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<13>" is sourceless and has been
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[13].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[13].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[13].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[13].U_LCE" (ROM)
+removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<14>" is sourceless and has been
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[14].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[14].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[14].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[14].U_LCE" (ROM)
+removed.
+The signal "ICON0/U0/U_ICON/iCOMMAND_SEL<15>" is sourceless and has been
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[15].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[15].U_LCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[15].U_HCE" (ROM)
+removed.
+ Sourceless block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[15].U_LCE" (ROM)
+removed.
+The signal
+"ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_GA
+NDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_
+SRL_SET/SRL_Q_O" is sourceless and has been removed.
+The signal
+"ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_GA
+NDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_
+SRL_SET/SRL_Q_O" is sourceless and has been removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[11].U_LUT" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[12].U_LUT" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[13].U_LUT" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[14].U_LUT" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[15].U_LUT" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[6].U_LUT" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[7].U_LUT" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[0].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[10].U_HCE" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[10].U_LCE" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[1].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[2].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[3].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[4].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[4].U_LCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[5].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[5].U_LCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[8].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[8].U_LCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[9].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[9].U_LCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[10].U_HCE" (ROM)
+removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[2].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[3].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[3].U_LCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[4].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[5].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[8].U_HCE" (ROM) removed.
+Unused block "ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[9].U_HCE" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		ICON0/XST_GND
+VCC 		ICON0/XST_VCC
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_CS_GAND.U_C
+S_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/I_PARTIAL_SLICE.U_
+GAND_SRL_SLICE/XST_GND
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_CS_GAND.U_C
+S_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/I_PARTIAL_SLICE.U_
+GAND_SRL_SLICE/XST_VCC
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_CS_GAND.U_C
+S_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/XST_VCC
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_CS_GAND.U_
+CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/I_PARTIAL_SLICE.U
+_GAND_SRL_SLICE/XST_GND
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_CS_GAND.U_
+CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/I_PARTIAL_SLICE.U
+_GAND_SRL_SLICE/XST_VCC
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_CS_GAND.U_
+CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/XST_VCC
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_CS_GAND.U_
+CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/I_PARTIAL_SLICE.U
+_GAND_SRL_SLICE/XST_GND
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_CS_GAND.U_
+CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/I_PARTIAL_SLICE.U
+_GAND_SRL_SLICE/XST_VCC
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_CS_GAND.U_
+CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/XST_VCC
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/I_WHOLE_SLICE.G_SLICE_IDX[0].U_GAND_SRL_SLICE/XST_GND
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/I_WHOLE_SLICE.G_SLICE_IDX[1].U_GAND_SRL_SLICE/XST_GND
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/I_WHOLE_SLICE.G_SLICE_IDX[1].U_GAND_SRL_SLICE/XST_VCC
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/XST_VCC
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/I_WHOLE_SLICE.G_SLICE_IDX[0].U_GAND_SRL_SLICE/XST_GND
+GND
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/I_WHOLE_SLICE.G_SLICE_IDX[1].U_GAND_SRL_SLICE/XST_GND
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/I_WHOLE_SLICE.G_SLICE_IDX[1].U_GAND_SRL_SLICE/XST_VCC
+VCC
+		ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_G
+ANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND
+_SRL_SET/XST_VCC
+GND 		ILA0/XST_GND
+VCC 		ILA0/XST_VCC
+LUT4 		VIO0/U0/I_VIO/U_STATUS/F_STAT[6].I_STAT.U_STAT
+   optimized to 0
+LUT4 		VIO0/U0/I_VIO/U_STATUS/F_STAT[7].I_STAT.U_STAT
+   optimized to 0
+LUT4 		VIO0/U0/I_VIO/U_STATUS/U_SMUX/U_CS_MUX/I4.U_MUX16/Mmux_O_5_f7_SW0
+   optimized to 1
+LUT6 		VIO0/U0/I_VIO/U_STATUS/iSTAT_CNT<7>260
+   optimized to 1
+GND 		VIO0/XST_GND
+VCC 		VIO0/XST_VCC
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clock                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| puf_out                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF          |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_CS_GAND.U_CS_
+GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/U_SCNT_CMP/I_CS_GAND
+.U_CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET_MSET
+ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_CS_GAND.U_CS
+_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/U_WCNT_HCMP/I_CS_GA
+ND.U_CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET_MSET
+ILA0/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_CS_GAND.U_CS
+_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET/U_WCNT_LCMP/I_CS_GA
+ND.U_CS_GAND_SRL/I_V5.U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET_MSET
+ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_GAN
+DX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_S
+RL_SET/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET_MSET
+ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_GAN
+DX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_S
+RL_SET/U_CS_GAND_SRL_V5/I_USE_RPM_EQ0.U_GAND_SRL_SET_MSET
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

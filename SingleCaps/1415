@@ -1,0 +1,17 @@
+Sample in Buffer	Sample in Window	pufout	DataPort[1]	DataPort[2]	DataPort[3]	DataPort[4]	DataPort[5]	DataPort[6]	DataPort[7]	DataPort[8]	DataPort[9]	DataPort[10]	DataPort[11]	DataPort[12]	DataPort[13]	DataPort[14]	DataPort[15]	DataPort[16]	DataPort[17]	DataPort[18]	DataPort[19]	DataPort[20]	DataPort[21]	DataPort[22]	DataPort[23]	DataPort[24]	mux1_out	DataPort[26]	DataPort[27]	DataPort[28]	DataPort[29]	DataPort[30]	DataPort[31]	DataPort[32]	DataPort[33]	DataPort[34]	DataPort[35]	DataPort[36]	DataPort[37]	clockcounter_out	counter1_out	counter2_out
+0	0	1	0	1	1	1	1	0	0	0	0	0	1	1	1	0	1	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFD	
+1	1	1	1	0	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1D	BFB	
+2	2	1	1	0	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1D	BFC	
+3	3	1	0	1	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFC	
+4	4	1	1	0	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1D	BFB	
+5	5	1	0	1	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFC	
+6	6	1	1	1	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1F	BFC	
+7	7	1	0	1	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFB	
+8	8	1	0	1	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFB	
+9	9	1	1	0	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1D	BFB	
+10	10	1	1	0	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	000	C1D	BFB	
+11	11	1	0	1	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFC	
+12	12	1	0	1	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFB	
+13	13	1	0	1	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFB	
+14	14	1	0	1	1	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFB	
+15	15	1	0	1	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	000	C1E	BFC	

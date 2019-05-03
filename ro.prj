@@ -1,0 +1,5 @@
+verilog work "ringoscillator.v"
+verilog work "ipcore_dir/VIO.v"
+verilog work "ipcore_dir/ILA.v"
+verilog work "ipcore_dir/ICON.v"
+verilog work "top.v"
