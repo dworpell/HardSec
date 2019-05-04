@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: ro.prj
@@ -121,6 +121,7 @@ Module <ILA> compiled
 Compiling verilog file "top.v" in library work
 Module <ICON> compiled
 Module <ro> compiled
+Module <mux16_1_12> compiled
 Module <mux16_1> compiled
 Module <counter12> compiled
 No errors in compilation
@@ -141,25 +142,25 @@ Analyzing hierarchy for module <counter12> in library <work>.
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing top module <ro>.
-WARNING:Xst:2211 - "ringoscillator.v" line 60: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 61: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 62: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ipcore_dir/ICON.v" line 102: Instantiating black box module <ICON>.
+WARNING:Xst:2211 - "ipcore_dir/VIO.v" line 105: Instantiating black box module <VIO>.
+WARNING:Xst:2211 - "ipcore_dir/ILA.v" line 109: Instantiating black box module <ILA>.
 WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 64: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 65: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 66: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 67: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 68: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 69: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 70: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 71: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 72: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 73: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 74: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ringoscillator.v" line 75: Instantiating black box module <ringoscillator>.
-WARNING:Xst:2211 - "ipcore_dir/ICON.v" line 112: Instantiating black box module <ICON>.
-WARNING:Xst:2211 - "ipcore_dir/VIO.v" line 115: Instantiating black box module <VIO>.
-WARNING:Xst:2211 - "ipcore_dir/ILA.v" line 119: Instantiating black box module <ILA>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
+WARNING:Xst:2211 - "ringoscillator.v" line 63: Instantiating black box module <ringoscillator>.
 Module <ro> is correct for synthesis.
  
     Set user-defined property "SYN_BLACK_BOX =  1" for instance <ICON0> in unit <ro>.
@@ -203,17 +204,37 @@ Unit <counter12> synthesized.
 Synthesizing Unit <ro>.
     Related source file is "top.v".
 WARNING:Xst:646 - Signal <resetmux2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <outs<16>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out9> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out8> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out7> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out6> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out5> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out4> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out16> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out15> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out14> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out13> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out12> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out11> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out10> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <out1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <ila_data<24:17>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:646 - Signal <fakeclock> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <enable2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <counter2_out> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <counter1_out> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found 1-bit register for signal <puf_out>.
-    Found 12-bit comparator less for signal <fakeclock$cmp_lt0000> created at line 77.
     Found 12-bit comparator greater for signal <fenable$cmp_gt0000> created at line 52.
     Found 12-bit comparator lessequal for signal <freset$cmp_le0000> created at line 53.
     Found 12-bit adder for signal <mathstuff>.
-    Found 4-bit comparator equal for signal <muxmux$cmp_eq0000> created at line 27.
-    Found 12-bit comparator greater for signal <puf_out$cmp_gt0000> created at line 58.
+    Found 4-bit comparator equal for signal <muxmux$cmp_eq0000> created at line 28.
     Summary:
 	inferred   1 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
-	inferred   5 Comparator(s).
+	inferred   3 Comparator(s).
 Unit <ro> synthesized.
 
 
@@ -223,13 +244,12 @@ HDL Synthesis Report
 Macro Statistics
 # Adders/Subtractors                                   : 1
  12-bit adder                                          : 1
-# Counters                                             : 5
- 12-bit up counter                                     : 5
+# Counters                                             : 19
+ 12-bit up counter                                     : 19
 # Registers                                            : 1
  1-bit register                                        : 1
-# Comparators                                          : 5
- 12-bit comparator greater                             : 2
- 12-bit comparator less                                : 1
+# Comparators                                          : 3
+ 12-bit comparator greater                             : 1
  12-bit comparator lessequal                           : 1
  4-bit comparator equal                                : 1
 # Multiplexers                                         : 2
@@ -241,44 +261,29 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
-Reading core <ringoscillator.ngc>.
-WARNING:Xst:1814 - Core <ringoscillator.ngc> does not contain any logic.
 Reading core <ipcore_dir/ICON.ngc>.
 Reading core <ipcore_dir/VIO.ngc>.
 Reading core <ipcore_dir/ILA.ngc>.
+Reading core <ringoscillator.ngc>.
 Loading core <ICON> for timing and area information for instance <ICON0>.
 Loading core <VIO> for timing and area information for instance <VIO0>.
 Loading core <ILA> for timing and area information for instance <ILA0>.
+Loading core <ringoscillator> for timing and area information for instance <ro[0].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[1].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[2].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[3].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[4].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[5].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[6].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[7].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[8].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[9].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[10].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[11].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[12].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[13].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[14].ro>.
+Loading core <ringoscillator> for timing and area information for instance <ro[15].ro>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -286,13 +291,12 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # Adders/Subtractors                                   : 1
  4-bit adder carry in                                  : 1
-# Counters                                             : 5
- 12-bit up counter                                     : 5
+# Counters                                             : 19
+ 12-bit up counter                                     : 19
 # Registers                                            : 1
  Flip-Flops                                            : 1
-# Comparators                                          : 5
- 12-bit comparator greater                             : 2
- 12-bit comparator less                                : 1
+# Comparators                                          : 3
+ 12-bit comparator greater                             : 1
  12-bit comparator lessequal                           : 1
  4-bit comparator equal                                : 1
 # Multiplexers                                         : 2
@@ -319,13 +323,28 @@ WARNING:Xst:2677 - Node <mux2incoconut/temp_8> of sequential type is unconnected
 WARNING:Xst:2677 - Node <mux2incoconut/temp_9> of sequential type is unconnected in block <ro>.
 WARNING:Xst:2677 - Node <mux2incoconut/temp_10> of sequential type is unconnected in block <ro>.
 WARNING:Xst:2677 - Node <mux2incoconut/temp_11> of sequential type is unconnected in block <ro>.
+WARNING:Xst:2170 - Unit ro[0].ro : the following signal(s) form a combinatorial loop: in12, in2, in13, in3, in7, in11, in10, in9, in5, in8, in1, in6, pufOut, in4.
+WARNING:Xst:2170 - Unit ro[1].ro : the following signal(s) form a combinatorial loop: in6, in10, in4, in7, in8, in1, in5, in13, in2, in3, in11, in12, pufOut, in9.
+WARNING:Xst:2170 - Unit ro[2].ro : the following signal(s) form a combinatorial loop: in12, in8, pufOut, in7, in3, in4, in5, in1, in2, in6, in9, in13, in10, in11.
+WARNING:Xst:2170 - Unit ro[3].ro : the following signal(s) form a combinatorial loop: in4, in7, in1, in9, in11, in10, in3, in2, in8, pufOut, in6, in12, in13, in5.
+WARNING:Xst:2170 - Unit ro[4].ro : the following signal(s) form a combinatorial loop: in13, in8, in4, in3, pufOut, in11, in7, in2, in10, in1, in5, in6, in9, in12.
+WARNING:Xst:2170 - Unit ro[5].ro : the following signal(s) form a combinatorial loop: pufOut, in11, in1, in7, in5, in8, in3, in12, in9, in4, in10, in2, in13, in6.
+WARNING:Xst:2170 - Unit ro[6].ro : the following signal(s) form a combinatorial loop: in2, in7, in12, in10, pufOut, in1, in11, in9, in4, in5, in8, in6, in13, in3.
+WARNING:Xst:2170 - Unit ro[7].ro : the following signal(s) form a combinatorial loop: pufOut, in1, in6, in8, in9, in12, in3, in4, in7, in5, in2, in13, in11, in10.
+WARNING:Xst:2170 - Unit ro[8].ro : the following signal(s) form a combinatorial loop: in8, in11, in13, in10, in1, in12, in4, in7, in6, pufOut, in3, in5, in2, in9.
+WARNING:Xst:2170 - Unit ro[9].ro : the following signal(s) form a combinatorial loop: in6, in3, in1, in13, in4, in10, in2, in8, pufOut, in11, in12, in5, in9, in7.
+WARNING:Xst:2170 - Unit ro[10].ro : the following signal(s) form a combinatorial loop: in2, in4, in9, in5, in11, in10, in13, in1, in8, in6, in3, pufOut, in7, in12.
+WARNING:Xst:2170 - Unit ro[11].ro : the following signal(s) form a combinatorial loop: in2, in12, in5, in9, pufOut, in1, in4, in6, in8, in10, in3, in13, in7, in11.
+WARNING:Xst:2170 - Unit ro[12].ro : the following signal(s) form a combinatorial loop: pufOut, in11, in3, in4, in7, in1, in8, in9, in2, in10, in5, in13, in12, in6.
+WARNING:Xst:2170 - Unit ro[13].ro : the following signal(s) form a combinatorial loop: in10, in6, in13, in12, in11, in4, pufOut, in9, in1, in2, in8, in3, in7, in5.
+WARNING:Xst:2170 - Unit ro[14].ro : the following signal(s) form a combinatorial loop: in5, in3, in9, in2, in1, in13, in8, in10, in4, in12, in11, in6, in7, pufOut.
+WARNING:Xst:2170 - Unit ro[15].ro : the following signal(s) form a combinatorial loop: in3, in4, in13, in12, pufOut, in9, in2, in7, in8, in1, in10, in5, in6, in11.
 
 Optimizing unit <ro> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block ro, actual ratio is 0.
-FlipFlop puf_out has been replicated 1 time(s) to handle iob=true attribute.
+Found area constraint ratio of 100 (+ 5) on block ro, actual ratio is 2.
 
 Final Macro Processing ...
 
@@ -333,8 +352,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 46
- Flip-Flops                                            : 46
+# Registers                                            : 213
+ Flip-Flops                                            : 213
 
 =========================================================================
 
@@ -363,50 +382,50 @@ Design Statistics
 # IOs                              : 2
 
 Cell Usage :
-# BELS                             : 783
+# BELS                             : 2196
 #      GND                         : 11
-#      INV                         : 38
-#      LUT1                        : 115
-#      LUT2                        : 23
-#      LUT3                        : 102
-#      LUT4                        : 142
-#      LUT5                        : 6
-#      LUT6                        : 48
-#      MUXCY                       : 45
-#      MUXCY_L                     : 100
+#      INV                         : 234
+#      LUT1                        : 466
+#      LUT2                        : 45
+#      LUT3                        : 603
+#      LUT4                        : 130
+#      LUT5                        : 8
+#      LUT6                        : 78
+#      MUXCY                       : 193
+#      MUXCY_L                     : 104
 #      MUXF5                       : 2
 #      MUXF6                       : 1
-#      MUXF7                       : 15
+#      MUXF7                       : 14
 #      MUXF8                       : 2
 #      VCC                         : 14
-#      XORCY                       : 119
-# FlipFlops/Latches                : 616
-#      FD                          : 38
-#      FDC                         : 1
-#      FDCE                        : 118
-#      FDE                         : 166
-#      FDP                         : 63
+#      XORCY                       : 291
+# FlipFlops/Latches                : 2191
+#      FD                          : 230
+#      FDC                         : 17
+#      FDCE                        : 620
+#      FDE                         : 834
+#      FDP                         : 255
 #      FDPE                        : 51
-#      FDR                         : 53
-#      FDRE                        : 109
+#      FDR                         : 52
+#      FDRE                        : 115
 #      FDRS                        : 4
 #      FDS                         : 12
 #      LDC                         : 1
-# RAMS                             : 10
-#      RAMB36_EXP                  : 10
-# Shift Registers                  : 88
-#      SRL16                       : 38
+# RAMS                             : 58
+#      RAMB36_EXP                  : 58
+# Shift Registers                  : 280
+#      SRL16                       : 230
 #      SRL16E                      : 1
 #      SRLC16E                     : 11
 #      SRLC32E                     : 38
-# Clock Buffers                    : 3
-#      BUFG                        : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 1
-#      OBUF                        : 1
-# Others                           : 17
+# IO Buffers                       : 49
+#      IBUF                        : 32
+#      OBUF                        : 17
+# Others                           : 1
 #      BSCAN_VIRTEX5               : 1
-#      ringoscillator              : 16
 =========================================================================
 
 Device utilization summary:
@@ -416,28 +435,27 @@ Selected Device : 5vlx110tff1136-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             615  out of  69120     0%  
- Number of Slice LUTs:                  562  out of  69120     0%  
-    Number used as Logic:               474  out of  69120     0%  
-    Number used as Memory:               88  out of  17920     0%  
-       Number used as SRL:               88
+ Number of Slice Registers:            2191  out of  69120     3%  
+ Number of Slice LUTs:                 1844  out of  69120     2%  
+    Number used as Logic:              1564  out of  69120     2%  
+    Number used as Memory:              280  out of  17920     1%  
+       Number used as SRL:              280
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    925
-   Number with an unused Flip Flop:     310  out of    925    33%  
-   Number with an unused LUT:           363  out of    925    39%  
-   Number of fully used LUT-FF pairs:   252  out of    925    27%  
-   Number of unique control sets:       128
+ Number of LUT Flip Flop pairs used:   2936
+   Number with an unused Flip Flop:     745  out of   2936    25%  
+   Number with an unused LUT:          1092  out of   2936    37%  
+   Number of fully used LUT-FF pairs:  1099  out of   2936    37%  
+   Number of unique control sets:       492
 
 IO Utilization: 
  Number of IOs:                           2
  Number of bonded IOBs:                   2  out of    640     0%  
-    IOB Flip Flops/Latches:               1
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:               10  out of    148     6%  
-    Number using Block RAM only:         10
- Number of BUFG/BUFGCTRLs:                3  out of     32     9%  
+ Number of Block RAM/FIFO:               58  out of    148    39%  
+    Number using Block RAM only:         58
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
 
 ---------------------------
 Partition Resource Summary:
@@ -457,43 +475,239 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-------------------------------------------------------------------------+------------------------------------------------------------+-------+
-Clock Signal                                                            | Clock buffer(FF name)                                      | Load  |
-------------------------------------------------------------------------+------------------------------------------------------------+-------+
-ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL                            | BUFG                                                       | 305   |
-ICON0/U0/iUPDATE_OUT                                                    | NONE(ICON0/U0/U_ICON/U_iDATA_CMD)                          | 1     |
-puf_out_OBUF                                                            | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[0].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_0                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[1].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_1                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[2].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_2                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[3].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_3                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[4].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_4                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[5].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_5                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[6].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_6                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[7].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_7                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[8].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_8                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[9].ASYNC_IN_CELL/U_RISING) | 2     |
-mux1_counter/temp_9                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[10].ASYNC_IN_CELL/U_RISING)| 2     |
-mux1_counter/temp_10                                                    | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[11].ASYNC_IN_CELL/U_RISING)| 2     |
-mux1_counter/temp_11                                                    | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[12].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_0                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[13].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_1                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[14].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_2                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[15].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_3                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[16].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_4                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[17].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_5                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[18].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_6                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[19].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_7                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[20].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_8                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[21].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_9                                                     | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[22].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_10                                                    | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[23].ASYNC_IN_CELL/U_RISING)| 2     |
-mux2_counter/temp_11                                                    | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[24].ASYNC_IN_CELL/U_RISING)| 2     |
-clock_counter/temp_111                                                  | BUFG                                                       | 321   |
-ICON0/CONTROL1<13>(ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[9].U_LCE:O)| NONE(*)(ILA0/U0/I_YES_D.U_ILA/U_STAT/U_DIRTY_LDC)          | 1     |
-clock                                                                   | BUFGP                                                      | 22    |
-mux2_out(muxmux2<3>11_f7:O)                                             | NONE(*)(mux2_counter/temp_0)                               | 12    |
-mux1_out(muxmux<3>11:O)                                                 | NONE(*)(mux1_counter/temp_0)                               | 12    |
-------------------------------------------------------------------------+------------------------------------------------------------+-------+
-(*) These 3 clock signal(s) are generated by combinatorial logic,
+------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+Clock Signal                                                            | Clock buffer(FF name)                                       | Load  |
+------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL                            | BUFG                                                        | 1027  |
+ICON0/U0/iUPDATE_OUT                                                    | NONE(ICON0/U0/U_ICON/U_iDATA_CMD)                           | 1     |
+ro[0].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[0].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[1].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[2].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[3].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[4].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[5].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[6].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[7].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[8].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[9].ASYNC_IN_CELL/U_RISING)  | 2     |
+ro[0].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[10].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[0].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[11].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[12].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[13].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[14].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[15].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[16].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[17].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[18].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[19].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[20].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[21].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[22].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[1].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[23].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[24].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[25].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[26].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[27].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[28].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[29].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[30].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[31].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[32].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[33].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[34].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[2].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[35].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[36].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[37].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[38].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[39].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[40].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[41].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[42].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[43].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[44].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[45].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[46].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[3].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[47].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[48].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[49].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[50].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[51].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[52].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[53].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[54].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[55].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[56].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[57].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[58].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[4].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[59].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[60].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[61].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[62].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[63].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[64].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[65].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[66].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[67].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[68].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[69].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[70].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[5].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[71].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[72].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[73].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[74].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[75].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[76].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[77].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[78].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[79].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[80].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[81].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[82].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[6].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[83].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[84].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[85].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[86].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[87].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[88].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[89].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[90].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[91].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[92].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[93].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[94].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[7].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[95].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[8].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[96].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[8].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[97].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[8].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[98].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[8].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[99].ASYNC_IN_CELL/U_RISING) | 2     |
+ro[8].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[100].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[101].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[102].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[103].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[104].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[105].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[106].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[8].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[107].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_0                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[108].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_1                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[109].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_2                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[110].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_3                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[111].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_4                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[112].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_5                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[113].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_6                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[114].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_7                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[115].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_8                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[116].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_9                                                 | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[117].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_10                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[118].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[9].ro_counter/temp_11                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[119].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_0                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[120].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_1                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[121].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_2                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[122].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_3                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[123].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_4                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[124].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_5                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[125].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_6                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[126].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_7                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[127].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_8                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[128].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_9                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[129].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_10                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[130].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[10].ro_counter/temp_11                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[131].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_0                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[132].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_1                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[133].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_2                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[134].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_3                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[135].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_4                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[136].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_5                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[137].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_6                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[138].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_7                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[139].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_8                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[140].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_9                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[141].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_10                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[142].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[11].ro_counter/temp_11                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[143].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_0                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[144].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_1                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[145].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_2                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[146].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_3                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[147].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_4                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[148].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_5                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[149].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_6                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[150].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_7                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[151].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_8                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[152].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_9                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[153].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_10                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[154].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[12].ro_counter/temp_11                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[155].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_0                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[156].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_1                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[157].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_2                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[158].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_3                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[159].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_4                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[160].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_5                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[161].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_6                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[162].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_7                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[163].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_8                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[164].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_9                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[165].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_10                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[166].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[13].ro_counter/temp_11                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[167].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_0                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[168].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_1                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[169].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_2                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[170].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_3                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[171].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_4                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[172].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_5                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[173].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_6                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[174].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_7                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[175].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_8                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[176].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_9                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[177].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_10                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[178].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[14].ro_counter/temp_11                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[179].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_0                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[180].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_1                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[181].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_2                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[182].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_3                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[183].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_4                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[184].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_5                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[185].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_6                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[186].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_7                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[187].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_8                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[188].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_9                                                | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[189].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_10                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[190].ASYNC_IN_CELL/U_RISING)| 2     |
+ro[15].ro_counter/temp_11                                               | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[191].ASYNC_IN_CELL/U_RISING)| 2     |
+clock                                                                   | BUFGP                                                       | 966   |
+ICON0/CONTROL1<13>(ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[9].U_LCE:O)| NONE(*)(ILA0/U0/I_YES_D.U_ILA/U_STAT/U_DIRTY_LDC)           | 1     |
+ro[0].ro/in1(ro[0].ro/in11:O)                                           | NONE(*)(ro[0].ro/dffout)                                    | 1     |
+ro[1].ro/in1(ro[1].ro/in11:O)                                           | NONE(*)(ro[1].ro/dffout)                                    | 1     |
+ro[2].ro/in1(ro[2].ro/in11:O)                                           | NONE(*)(ro[2].ro/dffout)                                    | 1     |
+ro[3].ro/in1(ro[3].ro/in11:O)                                           | NONE(*)(ro[3].ro/dffout)                                    | 1     |
+ro[4].ro/in1(ro[4].ro/in11:O)                                           | NONE(*)(ro[4].ro/dffout)                                    | 1     |
+ro[5].ro/in1(ro[5].ro/in11:O)                                           | NONE(*)(ro[5].ro/dffout)                                    | 1     |
+ro[6].ro/in1(ro[6].ro/in11:O)                                           | NONE(*)(ro[6].ro/dffout)                                    | 1     |
+ro[7].ro/in1(ro[7].ro/in11:O)                                           | NONE(*)(ro[7].ro/dffout)                                    | 1     |
+ro[8].ro/in1(ro[8].ro/in11:O)                                           | NONE(*)(ro[8].ro/dffout)                                    | 1     |
+ro[9].ro/in1(ro[9].ro/in11:O)                                           | NONE(*)(ro[9].ro/dffout)                                    | 1     |
+ro[10].ro/in1(ro[10].ro/in11:O)                                         | NONE(*)(ro[10].ro/dffout)                                   | 1     |
+ro[11].ro/in1(ro[11].ro/in11:O)                                         | NONE(*)(ro[11].ro/dffout)                                   | 1     |
+ro[12].ro/in1(ro[12].ro/in11:O)                                         | NONE(*)(ro[12].ro/dffout)                                   | 1     |
+ro[13].ro/in1(ro[13].ro/in11:O)                                         | NONE(*)(ro[13].ro/dffout)                                   | 1     |
+ro[14].ro/in1(ro[14].ro/in11:O)                                         | NONE(*)(ro[14].ro/dffout)                                   | 1     |
+ro[15].ro/in1(ro[15].ro/in11:O)                                         | NONE(*)(ro[15].ro/dffout)                                   | 1     |
+ro[15].ro/dffout_OBUF                                                   | NONE(ro[15].ro_counter/temp_0)                              | 12    |
+ro[12].ro/dffout_OBUF                                                   | NONE(ro[12].ro_counter/temp_0)                              | 12    |
+ro[14].ro/dffout_OBUF                                                   | NONE(ro[14].ro_counter/temp_0)                              | 12    |
+ro[13].ro/dffout_OBUF                                                   | NONE(ro[13].ro_counter/temp_0)                              | 12    |
+ro[9].ro/dffout_OBUF                                                    | NONE(ro[9].ro_counter/temp_0)                               | 12    |
+ro[11].ro/dffout_OBUF                                                   | NONE(ro[11].ro_counter/temp_0)                              | 12    |
+ro[10].ro/dffout_OBUF                                                   | NONE(ro[10].ro_counter/temp_0)                              | 12    |
+ro[6].ro/dffout_OBUF                                                    | NONE(ro[6].ro_counter/temp_0)                               | 12    |
+ro[8].ro/dffout_OBUF                                                    | NONE(ro[8].ro_counter/temp_0)                               | 12    |
+ro[7].ro/dffout_OBUF                                                    | NONE(ro[7].ro_counter/temp_0)                               | 12    |
+ro[3].ro/dffout_OBUF                                                    | NONE(ro[3].ro_counter/temp_0)                               | 12    |
+ro[5].ro/dffout_OBUF                                                    | NONE(ro[5].ro_counter/temp_0)                               | 12    |
+ro[4].ro/dffout_OBUF                                                    | NONE(ro[4].ro_counter/temp_0)                               | 12    |
+ro[0].ro/dffout_OBUF                                                    | NONE(ro[0].ro_counter/temp_0)                               | 12    |
+ro[2].ro/dffout_OBUF                                                    | NONE(ro[2].ro_counter/temp_0)                               | 12    |
+ro[1].ro/dffout_OBUF                                                    | NONE(ro[1].ro_counter/temp_0)                               | 12    |
+------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+(*) These 17 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -503,13 +717,14 @@ Asynchronous Control Signals Information:
 -----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                       | Buffer(FF name)                                                                                                                                                                         | Load  |
 -----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-ILA0/N1(ILA0/XST_VCC:P)                                                                              | NONE(ILA0/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36)                | 80    |
-ILA0/N0(ILA0/XST_GND:G)                                                                              | NONE(ILA0/U0/I_DQ.G_DW[0].U_DQ)                                                                                                                                                         | 63    |
-VIO0/U0/I_VIO/RESET(VIO0/U0/I_VIO/reset_f_edge/I_H2L.U_DOUT:Q)                                       | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[0].ASYNC_IN_CELL/U_FALLING)                                                                                                                             | 50    |
+ILA0/N1(ILA0/XST_VCC:P)                                                                              | NONE(ILA0/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36)                | 464   |
+VIO0/U0/I_VIO/RESET(VIO0/U0/I_VIO/reset_f_edge/I_H2L.U_DOUT:Q)                                       | NONE(VIO0/U0/I_VIO/GEN_ASYNC_IN[0].ASYNC_IN_CELL/U_FALLING)                                                                                                                             | 384   |
+ILA0/N0(ILA0/XST_GND:G)                                                                              | NONE(ILA0/U0/I_DQ.G_DW[0].U_DQ)                                                                                                                                                         | 255   |
+reset1(reset1_or0000146:O)                                                                           | NONE(ro[0].ro_counter/temp_0)                                                                                                                                                           | 192   |
 ICON0/CONTROL1<20>(ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[0].U_HCE:O)                             | NONE(ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_GANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/G_GAND_DLY1[0].I_IN_RANGE.I_USE_INPUT_REG_NE0.U_GAND_DLY1)| 24    |
 ICON0/CONTROL1<21>(ICON0/U0/U_ICON/U_CTRL_OUT/F_NCP[1].F_CMD[1].U_HCE:O)                             | NONE(ILA0/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[1].U_M/U_MU/I_MUT_GANDX.U_match/I_CS_GANDX.U_CS_GANDX_SRL/I_V5.U_CS_GANDX_SRL_V5/G_GAND_DLY1[0].I_IN_RANGE.I_USE_INPUT_REG_NE0.U_GAND_DLY1)| 24    |
-reset1(reset1_or0000146:O)                                                                           | NONE(mux1_counter/temp_0)                                                                                                                                                               | 24    |
 VIO0/ASYNC_OUT<1>(VIO0/U0/I_VIO/GEN_ASYNC_OUT[1].ASYNC_OUT_CELL/USER_REG:Q)                          | NONE(clock_counter/temp_0)                                                                                                                                                              | 20    |
+freset(freset_or00001:O)                                                                             | IBUF(ro[0].ro/dffout)                                                                                                                                                                   | 16    |
 ICON0/U0/U_ICON/U_CMD/iSEL_n(ICON0/U0/U_ICON/U_CMD/U_SEL_n:O)                                        | NONE(ICON0/U0/U_ICON/U_CMD/G_TARGET[10].I_NE0.U_TARGET)                                                                                                                                 | 10    |
 ILA0/U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iCLR(ILA0/U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/U_CLEAR:O)        | NONE(ILA0/U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/U_DOUT0)                                                                                                                                    | 4     |
 ILA0/U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iCLR(ILA0/U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/U_CLEAR:O)      | NONE(ILA0/U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/U_DOUT0)                                                                                                                                   | 4     |
@@ -525,9 +740,9 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 6.118ns (Maximum Frequency: 163.452MHz)
+   Minimum period: 7.188ns (Maximum Frequency: 139.121MHz)
    Minimum input arrival time before clock: 5.336ns
-   Maximum output required time after clock: 3.259ns
+   Maximum output required time after clock: 3.264ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -536,31 +751,32 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
-  Clock period: 6.118ns (frequency: 163.452MHz)
-  Total number of paths / destination ports: 4810 / 799
+  Clock period: 7.188ns (frequency: 139.121MHz)
+  Total number of paths / destination ports: 13848 / 2925
 -------------------------------------------------------------------------
-Delay:               6.118ns (Levels of Logic = 6)
-  Source:            ILA0/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36 (RAM)
+Delay:               7.188ns (Levels of Logic = 7)
+  Source:            ILA0/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36 (RAM)
   Destination:       ICON0/U0/U_ICON/U_TDO_reg (FF)
   Source Clock:      ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
   Destination Clock: ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
 
-  Data Path: ILA0/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36 to ICON0/U0/U_ICON/U_TDO_reg
+  Data Path: ILA0/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36 to ICON0/U0/U_ICON/U_TDO_reg
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB36_EXP:REGCLKAL->DOA0    1   2.180   0.973  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/rd_data<10>)
-     LUT6:I1->O            1   0.094   0.973  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I5.U_MUX32/Mmux_O_91 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I5.U_MUX32/Mmux_O_91)
-     LUT6:I1->O            1   0.094   0.000  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I5.U_MUX32/Mmux_O_41 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I5.U_MUX32/Mmux_O_4)
-     MUXF7:I0->O           1   0.251   0.576  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I5.U_MUX32/Mmux_O_2_f7 (U0/I_YES_D.U_ILA/iDATA_DOUT)
+     RAMB36_EXP:REGCLKAL->DOA0    1   2.180   0.973  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/rd_data<106>)
+     LUT6:I1->O            1   0.094   0.973  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_134 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_134)
+     LUT6:I1->O            1   0.094   0.973  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_81 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_81)
+     LUT6:I1->O            1   0.094   0.000  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_31 (U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_3)
+     MUXF7:I1->O           1   0.254   0.576  U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RD_COL_MUX/I7.U_MUX128/Mmux_O_2_f7 (U0/I_YES_D.U_ILA/iDATA_DOUT)
      LUT3:I1->O            1   0.094   0.789  U0/I_YES_D.U_ILA/U_DOUT (CONTROL<3>)
      end scope: 'ILA0'
      begin scope: 'ICON0'
      LUT6:I2->O            1   0.094   0.000  U0/U_ICON/U_TDO_MUX/U_CS_MUX/I4.U_MUX16/Mmux_O2 (U0/U_ICON/iTDO_next)
      FDE:D                    -0.018          U0/U_ICON/U_TDO_reg
     ----------------------------------------
-    Total                      6.118ns (2.807ns logic, 3.311ns route)
-                                       (45.9% logic, 54.1% route)
+    Total                      7.188ns (2.904ns logic, 4.284ns route)
+                                       (40.4% logic, 59.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'ICON0/U0/iUPDATE_OUT'
@@ -585,122 +801,930 @@ Delay:               1.392ns (Levels of Logic = 1)
                                        (50.9% logic, 49.1% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'clock_counter/temp_111'
-  Clock period: 2.801ns (frequency: 357.015MHz)
-  Total number of paths / destination ports: 970 / 737
--------------------------------------------------------------------------
-Delay:               2.801ns (Levels of Logic = 2)
-  Source:            ILA0/U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/U_GEN_DELAY[1].U_FD (FF)
-  Destination:       ILA0/U0/I_YES_D.U_ILA/U_RST/G_RST[0].U_RST (FF)
-  Source Clock:      clock_counter/temp_111 falling
-  Destination Clock: clock_counter/temp_111 falling
-
-  Data Path: ILA0/U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/U_GEN_DELAY[1].U_FD to ILA0/U0/I_YES_D.U_ILA/U_RST/G_RST[0].U_RST
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDE:C->Q              2   0.471   0.715  U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/U_GEN_DELAY[1].U_FD (U0/I_YES_D.U_ILA/U_RST/HALT_pulse)
-     LUT3:I0->O            1   0.094   0.480  U0/I_YES_D.U_ILA/U_RST/U_PRST1 (U0/I_YES_D.U_ILA/U_RST/PRE_RESET1)
-     LUT4:I3->O            8   0.094   0.374  U0/I_YES_D.U_ILA/U_RST/U_PRST0 (U0/I_YES_D.U_ILA/U_RST/PRE_RESET0)
-     FDS:S                     0.573          U0/I_YES_D.U_ILA/U_RST/G_RST[0].U_RST
-    ----------------------------------------
-    Total                      2.801ns (1.232ns logic, 1.569ns route)
-                                       (44.0% logic, 56.0% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'clock'
-  Clock period: 3.395ns (frequency: 294.551MHz)
-  Total number of paths / destination ports: 250 / 28
+  Clock period: 5.071ns (frequency: 197.200MHz)
+  Total number of paths / destination ports: 3523 / 3000
 -------------------------------------------------------------------------
-Delay:               3.395ns (Levels of Logic = 2)
-  Source:            muxincoconut/temp_2 (FF)
-  Destination:       muxincoconut/temp_0 (FF)
+Delay:               5.071ns (Levels of Logic = 5)
+  Source:            muxincoconut/temp_0 (FF)
+  Destination:       puf_out (FF)
   Source Clock:      clock rising
   Destination Clock: clock rising
 
-  Data Path: muxincoconut/temp_2 to muxincoconut/temp_0
+  Data Path: muxincoconut/temp_0 to puf_out
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             5   0.471   1.091  muxincoconut/temp_2 (muxincoconut/temp_2)
-     LUT6:I0->O            3   0.094   1.080  Madd_mathstuff_Madd_cy<2>11 (Madd_mathstuff_Madd_cy<2>)
-     LUT6:I0->O            4   0.094   0.352  enablemux1_and0000 (enablemux1)
-     FDCE:CE                   0.213          muxincoconut/temp_0
+     FDCE:C->Q             8   0.471   0.518  muxincoconut/temp_0 (muxincoconut/temp_0)
+     LUT3:I2->O            4   0.094   1.085  muxmux<0>1 (muxmux<0>)
+     LUT6:I0->O            1   0.094   0.000  mux1/Mmux_out_6 (mux1/Mmux_out_6)
+     MUXF7:I1->O           1   0.254   0.973  mux1/Mmux_out_5_f7 (mux1/Mmux_out_5_f7)
+     LUT5:I0->O            2   0.094   0.485  muxmux<3>11 (mux1_out)
+     LUT6:I5->O            1   0.094   0.336  puf_out_not00011 (puf_out_not0001)
+     FDR:R                     0.573          puf_out
     ----------------------------------------
-    Total                      3.395ns (0.872ns logic, 2.523ns route)
-                                       (25.7% logic, 74.3% route)
+    Total                      5.071ns (1.674ns logic, 3.397ns route)
+                                       (33.0% logic, 67.0% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'mux2_out'
+Timing constraint: Default period analysis for Clock 'ro[0].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[0].ro/dffout (FF)
+  Destination:       ro[0].ro/dffout (FF)
+  Source Clock:      ro[0].ro/in1 falling
+  Destination Clock: ro[0].ro/in1 falling
+
+  Data Path: ro[0].ro/dffout to ro[0].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[1].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[1].ro/dffout (FF)
+  Destination:       ro[1].ro/dffout (FF)
+  Source Clock:      ro[1].ro/in1 falling
+  Destination Clock: ro[1].ro/in1 falling
+
+  Data Path: ro[1].ro/dffout to ro[1].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[2].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[2].ro/dffout (FF)
+  Destination:       ro[2].ro/dffout (FF)
+  Source Clock:      ro[2].ro/in1 falling
+  Destination Clock: ro[2].ro/in1 falling
+
+  Data Path: ro[2].ro/dffout to ro[2].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[3].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[3].ro/dffout (FF)
+  Destination:       ro[3].ro/dffout (FF)
+  Source Clock:      ro[3].ro/in1 falling
+  Destination Clock: ro[3].ro/in1 falling
+
+  Data Path: ro[3].ro/dffout to ro[3].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[4].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[4].ro/dffout (FF)
+  Destination:       ro[4].ro/dffout (FF)
+  Source Clock:      ro[4].ro/in1 falling
+  Destination Clock: ro[4].ro/in1 falling
+
+  Data Path: ro[4].ro/dffout to ro[4].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[5].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[5].ro/dffout (FF)
+  Destination:       ro[5].ro/dffout (FF)
+  Source Clock:      ro[5].ro/in1 falling
+  Destination Clock: ro[5].ro/in1 falling
+
+  Data Path: ro[5].ro/dffout to ro[5].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[6].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[6].ro/dffout (FF)
+  Destination:       ro[6].ro/dffout (FF)
+  Source Clock:      ro[6].ro/in1 falling
+  Destination Clock: ro[6].ro/in1 falling
+
+  Data Path: ro[6].ro/dffout to ro[6].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[7].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[7].ro/dffout (FF)
+  Destination:       ro[7].ro/dffout (FF)
+  Source Clock:      ro[7].ro/in1 falling
+  Destination Clock: ro[7].ro/in1 falling
+
+  Data Path: ro[7].ro/dffout to ro[7].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[8].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[8].ro/dffout (FF)
+  Destination:       ro[8].ro/dffout (FF)
+  Source Clock:      ro[8].ro/in1 falling
+  Destination Clock: ro[8].ro/in1 falling
+
+  Data Path: ro[8].ro/dffout to ro[8].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[9].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[9].ro/dffout (FF)
+  Destination:       ro[9].ro/dffout (FF)
+  Source Clock:      ro[9].ro/in1 falling
+  Destination Clock: ro[9].ro/in1 falling
+
+  Data Path: ro[9].ro/dffout to ro[9].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[10].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[10].ro/dffout (FF)
+  Destination:       ro[10].ro/dffout (FF)
+  Source Clock:      ro[10].ro/in1 falling
+  Destination Clock: ro[10].ro/in1 falling
+
+  Data Path: ro[10].ro/dffout to ro[10].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[11].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[11].ro/dffout (FF)
+  Destination:       ro[11].ro/dffout (FF)
+  Source Clock:      ro[11].ro/in1 falling
+  Destination Clock: ro[11].ro/in1 falling
+
+  Data Path: ro[11].ro/dffout to ro[11].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[12].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[12].ro/dffout (FF)
+  Destination:       ro[12].ro/dffout (FF)
+  Source Clock:      ro[12].ro/in1 falling
+  Destination Clock: ro[12].ro/in1 falling
+
+  Data Path: ro[12].ro/dffout to ro[12].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[13].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[13].ro/dffout (FF)
+  Destination:       ro[13].ro/dffout (FF)
+  Source Clock:      ro[13].ro/in1 falling
+  Destination Clock: ro[13].ro/in1 falling
+
+  Data Path: ro[13].ro/dffout to ro[13].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[14].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[14].ro/dffout (FF)
+  Destination:       ro[14].ro/dffout (FF)
+  Source Clock:      ro[14].ro/in1 falling
+  Destination Clock: ro[14].ro/in1 falling
+
+  Data Path: ro[14].ro/dffout to ro[14].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[15].ro/in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            ro[15].ro/dffout (FF)
+  Destination:       ro[15].ro/dffout (FF)
+  Source Clock:      ro[15].ro/in1 falling
+  Destination Clock: ro[15].ro/in1 falling
+
+  Data Path: ro[15].ro/dffout to ro[15].ro/dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[15].ro/dffout_OBUF'
   Clock period: 2.067ns (frequency: 483.793MHz)
   Total number of paths / destination ports: 78 / 12
 -------------------------------------------------------------------------
 Delay:               2.067ns (Levels of Logic = 13)
-  Source:            mux2_counter/temp_0 (FF)
-  Destination:       mux2_counter/temp_11 (FF)
-  Source Clock:      mux2_out rising
-  Destination Clock: mux2_out rising
+  Source:            ro[15].ro_counter/temp_0 (FF)
+  Destination:       ro[15].ro_counter/temp_11 (FF)
+  Source Clock:      ro[15].ro/dffout_OBUF rising
+  Destination Clock: ro[15].ro/dffout_OBUF rising
 
-  Data Path: mux2_counter/temp_0 to mux2_counter/temp_11
+  Data Path: ro[15].ro_counter/temp_0 to ro[15].ro_counter/temp_11
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             7   0.471   0.369  mux2_counter/temp_0 (mux2_counter/temp_0)
-     INV:I->O              1   0.238   0.000  mux2_counter/Mcount_temp_lut<0>_INV_0 (mux2_counter/Mcount_temp_lut<0>)
-     MUXCY:S->O            1   0.372   0.000  mux2_counter/Mcount_temp_cy<0> (mux2_counter/Mcount_temp_cy<0>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<1> (mux2_counter/Mcount_temp_cy<1>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<2> (mux2_counter/Mcount_temp_cy<2>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<3> (mux2_counter/Mcount_temp_cy<3>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<4> (mux2_counter/Mcount_temp_cy<4>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<5> (mux2_counter/Mcount_temp_cy<5>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<6> (mux2_counter/Mcount_temp_cy<6>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<7> (mux2_counter/Mcount_temp_cy<7>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<8> (mux2_counter/Mcount_temp_cy<8>)
-     MUXCY:CI->O           1   0.026   0.000  mux2_counter/Mcount_temp_cy<9> (mux2_counter/Mcount_temp_cy<9>)
-     MUXCY:CI->O           0   0.026   0.000  mux2_counter/Mcount_temp_cy<10> (mux2_counter/Mcount_temp_cy<10>)
-     XORCY:CI->O           1   0.357   0.000  mux2_counter/Mcount_temp_xor<11> (Result<11>3)
-     FDCE:D                   -0.018          mux2_counter/temp_11
+     FDCE:C->Q             7   0.471   0.369  ro[15].ro_counter/temp_0 (ro[15].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[15].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[15].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[15].ro_counter/Mcount_temp_cy<0> (ro[15].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<1> (ro[15].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<2> (ro[15].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<3> (ro[15].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<4> (ro[15].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<5> (ro[15].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<6> (ro[15].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<7> (ro[15].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<8> (ro[15].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<9> (ro[15].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[15].ro_counter/Mcount_temp_cy<10> (ro[15].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[15].ro_counter/Mcount_temp_xor<11> (Result<11>)
+     FDCE:D                   -0.018          ro[15].ro_counter/temp_11
     ----------------------------------------
     Total                      2.067ns (1.698ns logic, 0.369ns route)
                                        (82.1% logic, 17.9% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'mux1_out'
+Timing constraint: Default period analysis for Clock 'ro[12].ro/dffout_OBUF'
   Clock period: 2.067ns (frequency: 483.793MHz)
   Total number of paths / destination ports: 78 / 12
 -------------------------------------------------------------------------
 Delay:               2.067ns (Levels of Logic = 13)
-  Source:            mux1_counter/temp_0 (FF)
-  Destination:       mux1_counter/temp_11 (FF)
-  Source Clock:      mux1_out rising
-  Destination Clock: mux1_out rising
+  Source:            ro[12].ro_counter/temp_0 (FF)
+  Destination:       ro[12].ro_counter/temp_11 (FF)
+  Source Clock:      ro[12].ro/dffout_OBUF rising
+  Destination Clock: ro[12].ro/dffout_OBUF rising
 
-  Data Path: mux1_counter/temp_0 to mux1_counter/temp_11
+  Data Path: ro[12].ro_counter/temp_0 to ro[12].ro_counter/temp_11
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             7   0.471   0.369  mux1_counter/temp_0 (mux1_counter/temp_0)
-     INV:I->O              1   0.238   0.000  mux1_counter/Mcount_temp_lut<0>_INV_0 (mux1_counter/Mcount_temp_lut<0>)
-     MUXCY:S->O            1   0.372   0.000  mux1_counter/Mcount_temp_cy<0> (mux1_counter/Mcount_temp_cy<0>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<1> (mux1_counter/Mcount_temp_cy<1>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<2> (mux1_counter/Mcount_temp_cy<2>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<3> (mux1_counter/Mcount_temp_cy<3>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<4> (mux1_counter/Mcount_temp_cy<4>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<5> (mux1_counter/Mcount_temp_cy<5>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<6> (mux1_counter/Mcount_temp_cy<6>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<7> (mux1_counter/Mcount_temp_cy<7>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<8> (mux1_counter/Mcount_temp_cy<8>)
-     MUXCY:CI->O           1   0.026   0.000  mux1_counter/Mcount_temp_cy<9> (mux1_counter/Mcount_temp_cy<9>)
-     MUXCY:CI->O           0   0.026   0.000  mux1_counter/Mcount_temp_cy<10> (mux1_counter/Mcount_temp_cy<10>)
-     XORCY:CI->O           1   0.357   0.000  mux1_counter/Mcount_temp_xor<11> (Result<11>4)
-     FDCE:D                   -0.018          mux1_counter/temp_11
+     FDCE:C->Q             7   0.471   0.369  ro[12].ro_counter/temp_0 (ro[12].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[12].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[12].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[12].ro_counter/Mcount_temp_cy<0> (ro[12].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<1> (ro[12].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<2> (ro[12].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<3> (ro[12].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<4> (ro[12].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<5> (ro[12].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<6> (ro[12].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<7> (ro[12].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<8> (ro[12].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<9> (ro[12].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[12].ro_counter/Mcount_temp_cy<10> (ro[12].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[12].ro_counter/Mcount_temp_xor<11> (Result<11>1)
+     FDCE:D                   -0.018          ro[12].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[14].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[14].ro_counter/temp_0 (FF)
+  Destination:       ro[14].ro_counter/temp_11 (FF)
+  Source Clock:      ro[14].ro/dffout_OBUF rising
+  Destination Clock: ro[14].ro/dffout_OBUF rising
+
+  Data Path: ro[14].ro_counter/temp_0 to ro[14].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[14].ro_counter/temp_0 (ro[14].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[14].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[14].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[14].ro_counter/Mcount_temp_cy<0> (ro[14].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<1> (ro[14].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<2> (ro[14].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<3> (ro[14].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<4> (ro[14].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<5> (ro[14].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<6> (ro[14].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<7> (ro[14].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<8> (ro[14].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<9> (ro[14].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[14].ro_counter/Mcount_temp_cy<10> (ro[14].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[14].ro_counter/Mcount_temp_xor<11> (Result<11>2)
+     FDCE:D                   -0.018          ro[14].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[13].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[13].ro_counter/temp_0 (FF)
+  Destination:       ro[13].ro_counter/temp_11 (FF)
+  Source Clock:      ro[13].ro/dffout_OBUF rising
+  Destination Clock: ro[13].ro/dffout_OBUF rising
+
+  Data Path: ro[13].ro_counter/temp_0 to ro[13].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[13].ro_counter/temp_0 (ro[13].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[13].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[13].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[13].ro_counter/Mcount_temp_cy<0> (ro[13].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<1> (ro[13].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<2> (ro[13].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<3> (ro[13].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<4> (ro[13].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<5> (ro[13].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<6> (ro[13].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<7> (ro[13].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<8> (ro[13].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<9> (ro[13].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[13].ro_counter/Mcount_temp_cy<10> (ro[13].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[13].ro_counter/Mcount_temp_xor<11> (Result<11>3)
+     FDCE:D                   -0.018          ro[13].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[9].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[9].ro_counter/temp_0 (FF)
+  Destination:       ro[9].ro_counter/temp_11 (FF)
+  Source Clock:      ro[9].ro/dffout_OBUF rising
+  Destination Clock: ro[9].ro/dffout_OBUF rising
+
+  Data Path: ro[9].ro_counter/temp_0 to ro[9].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[9].ro_counter/temp_0 (ro[9].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[9].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[9].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[9].ro_counter/Mcount_temp_cy<0> (ro[9].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<1> (ro[9].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<2> (ro[9].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<3> (ro[9].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<4> (ro[9].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<5> (ro[9].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<6> (ro[9].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<7> (ro[9].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<8> (ro[9].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<9> (ro[9].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[9].ro_counter/Mcount_temp_cy<10> (ro[9].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[9].ro_counter/Mcount_temp_xor<11> (Result<11>4)
+     FDCE:D                   -0.018          ro[9].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[11].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[11].ro_counter/temp_0 (FF)
+  Destination:       ro[11].ro_counter/temp_11 (FF)
+  Source Clock:      ro[11].ro/dffout_OBUF rising
+  Destination Clock: ro[11].ro/dffout_OBUF rising
+
+  Data Path: ro[11].ro_counter/temp_0 to ro[11].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[11].ro_counter/temp_0 (ro[11].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[11].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[11].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[11].ro_counter/Mcount_temp_cy<0> (ro[11].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<1> (ro[11].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<2> (ro[11].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<3> (ro[11].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<4> (ro[11].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<5> (ro[11].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<6> (ro[11].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<7> (ro[11].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<8> (ro[11].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<9> (ro[11].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[11].ro_counter/Mcount_temp_cy<10> (ro[11].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[11].ro_counter/Mcount_temp_xor<11> (Result<11>5)
+     FDCE:D                   -0.018          ro[11].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[10].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[10].ro_counter/temp_0 (FF)
+  Destination:       ro[10].ro_counter/temp_11 (FF)
+  Source Clock:      ro[10].ro/dffout_OBUF rising
+  Destination Clock: ro[10].ro/dffout_OBUF rising
+
+  Data Path: ro[10].ro_counter/temp_0 to ro[10].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[10].ro_counter/temp_0 (ro[10].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[10].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[10].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[10].ro_counter/Mcount_temp_cy<0> (ro[10].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<1> (ro[10].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<2> (ro[10].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<3> (ro[10].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<4> (ro[10].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<5> (ro[10].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<6> (ro[10].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<7> (ro[10].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<8> (ro[10].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<9> (ro[10].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[10].ro_counter/Mcount_temp_cy<10> (ro[10].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[10].ro_counter/Mcount_temp_xor<11> (Result<11>6)
+     FDCE:D                   -0.018          ro[10].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[6].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[6].ro_counter/temp_0 (FF)
+  Destination:       ro[6].ro_counter/temp_11 (FF)
+  Source Clock:      ro[6].ro/dffout_OBUF rising
+  Destination Clock: ro[6].ro/dffout_OBUF rising
+
+  Data Path: ro[6].ro_counter/temp_0 to ro[6].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[6].ro_counter/temp_0 (ro[6].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[6].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[6].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[6].ro_counter/Mcount_temp_cy<0> (ro[6].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<1> (ro[6].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<2> (ro[6].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<3> (ro[6].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<4> (ro[6].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<5> (ro[6].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<6> (ro[6].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<7> (ro[6].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<8> (ro[6].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<9> (ro[6].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[6].ro_counter/Mcount_temp_cy<10> (ro[6].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[6].ro_counter/Mcount_temp_xor<11> (Result<11>7)
+     FDCE:D                   -0.018          ro[6].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[8].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[8].ro_counter/temp_0 (FF)
+  Destination:       ro[8].ro_counter/temp_11 (FF)
+  Source Clock:      ro[8].ro/dffout_OBUF rising
+  Destination Clock: ro[8].ro/dffout_OBUF rising
+
+  Data Path: ro[8].ro_counter/temp_0 to ro[8].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[8].ro_counter/temp_0 (ro[8].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[8].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[8].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[8].ro_counter/Mcount_temp_cy<0> (ro[8].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<1> (ro[8].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<2> (ro[8].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<3> (ro[8].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<4> (ro[8].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<5> (ro[8].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<6> (ro[8].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<7> (ro[8].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<8> (ro[8].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<9> (ro[8].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[8].ro_counter/Mcount_temp_cy<10> (ro[8].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[8].ro_counter/Mcount_temp_xor<11> (Result<11>8)
+     FDCE:D                   -0.018          ro[8].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[7].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[7].ro_counter/temp_0 (FF)
+  Destination:       ro[7].ro_counter/temp_11 (FF)
+  Source Clock:      ro[7].ro/dffout_OBUF rising
+  Destination Clock: ro[7].ro/dffout_OBUF rising
+
+  Data Path: ro[7].ro_counter/temp_0 to ro[7].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[7].ro_counter/temp_0 (ro[7].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[7].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[7].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[7].ro_counter/Mcount_temp_cy<0> (ro[7].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<1> (ro[7].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<2> (ro[7].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<3> (ro[7].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<4> (ro[7].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<5> (ro[7].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<6> (ro[7].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<7> (ro[7].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<8> (ro[7].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<9> (ro[7].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[7].ro_counter/Mcount_temp_cy<10> (ro[7].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[7].ro_counter/Mcount_temp_xor<11> (Result<11>9)
+     FDCE:D                   -0.018          ro[7].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[3].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[3].ro_counter/temp_0 (FF)
+  Destination:       ro[3].ro_counter/temp_11 (FF)
+  Source Clock:      ro[3].ro/dffout_OBUF rising
+  Destination Clock: ro[3].ro/dffout_OBUF rising
+
+  Data Path: ro[3].ro_counter/temp_0 to ro[3].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[3].ro_counter/temp_0 (ro[3].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[3].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[3].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[3].ro_counter/Mcount_temp_cy<0> (ro[3].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<1> (ro[3].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<2> (ro[3].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<3> (ro[3].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<4> (ro[3].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<5> (ro[3].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<6> (ro[3].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<7> (ro[3].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<8> (ro[3].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<9> (ro[3].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[3].ro_counter/Mcount_temp_cy<10> (ro[3].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[3].ro_counter/Mcount_temp_xor<11> (Result<11>10)
+     FDCE:D                   -0.018          ro[3].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[5].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[5].ro_counter/temp_0 (FF)
+  Destination:       ro[5].ro_counter/temp_11 (FF)
+  Source Clock:      ro[5].ro/dffout_OBUF rising
+  Destination Clock: ro[5].ro/dffout_OBUF rising
+
+  Data Path: ro[5].ro_counter/temp_0 to ro[5].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[5].ro_counter/temp_0 (ro[5].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[5].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[5].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[5].ro_counter/Mcount_temp_cy<0> (ro[5].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<1> (ro[5].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<2> (ro[5].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<3> (ro[5].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<4> (ro[5].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<5> (ro[5].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<6> (ro[5].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<7> (ro[5].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<8> (ro[5].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<9> (ro[5].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[5].ro_counter/Mcount_temp_cy<10> (ro[5].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[5].ro_counter/Mcount_temp_xor<11> (Result<11>11)
+     FDCE:D                   -0.018          ro[5].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[4].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[4].ro_counter/temp_0 (FF)
+  Destination:       ro[4].ro_counter/temp_11 (FF)
+  Source Clock:      ro[4].ro/dffout_OBUF rising
+  Destination Clock: ro[4].ro/dffout_OBUF rising
+
+  Data Path: ro[4].ro_counter/temp_0 to ro[4].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[4].ro_counter/temp_0 (ro[4].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[4].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[4].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[4].ro_counter/Mcount_temp_cy<0> (ro[4].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<1> (ro[4].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<2> (ro[4].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<3> (ro[4].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<4> (ro[4].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<5> (ro[4].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<6> (ro[4].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<7> (ro[4].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<8> (ro[4].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<9> (ro[4].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[4].ro_counter/Mcount_temp_cy<10> (ro[4].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[4].ro_counter/Mcount_temp_xor<11> (Result<11>12)
+     FDCE:D                   -0.018          ro[4].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[0].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[0].ro_counter/temp_0 (FF)
+  Destination:       ro[0].ro_counter/temp_11 (FF)
+  Source Clock:      ro[0].ro/dffout_OBUF rising
+  Destination Clock: ro[0].ro/dffout_OBUF rising
+
+  Data Path: ro[0].ro_counter/temp_0 to ro[0].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[0].ro_counter/temp_0 (ro[0].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[0].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[0].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[0].ro_counter/Mcount_temp_cy<0> (ro[0].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<1> (ro[0].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<2> (ro[0].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<3> (ro[0].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<4> (ro[0].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<5> (ro[0].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<6> (ro[0].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<7> (ro[0].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<8> (ro[0].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<9> (ro[0].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[0].ro_counter/Mcount_temp_cy<10> (ro[0].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[0].ro_counter/Mcount_temp_xor<11> (Result<11>13)
+     FDCE:D                   -0.018          ro[0].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[2].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[2].ro_counter/temp_0 (FF)
+  Destination:       ro[2].ro_counter/temp_11 (FF)
+  Source Clock:      ro[2].ro/dffout_OBUF rising
+  Destination Clock: ro[2].ro/dffout_OBUF rising
+
+  Data Path: ro[2].ro_counter/temp_0 to ro[2].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[2].ro_counter/temp_0 (ro[2].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[2].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[2].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[2].ro_counter/Mcount_temp_cy<0> (ro[2].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<1> (ro[2].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<2> (ro[2].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<3> (ro[2].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<4> (ro[2].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<5> (ro[2].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<6> (ro[2].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<7> (ro[2].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<8> (ro[2].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<9> (ro[2].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[2].ro_counter/Mcount_temp_cy<10> (ro[2].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[2].ro_counter/Mcount_temp_xor<11> (Result<11>14)
+     FDCE:D                   -0.018          ro[2].ro_counter/temp_11
+    ----------------------------------------
+    Total                      2.067ns (1.698ns logic, 0.369ns route)
+                                       (82.1% logic, 17.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ro[1].ro/dffout_OBUF'
+  Clock period: 2.067ns (frequency: 483.793MHz)
+  Total number of paths / destination ports: 78 / 12
+-------------------------------------------------------------------------
+Delay:               2.067ns (Levels of Logic = 13)
+  Source:            ro[1].ro_counter/temp_0 (FF)
+  Destination:       ro[1].ro_counter/temp_11 (FF)
+  Source Clock:      ro[1].ro/dffout_OBUF rising
+  Destination Clock: ro[1].ro/dffout_OBUF rising
+
+  Data Path: ro[1].ro_counter/temp_0 to ro[1].ro_counter/temp_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.471   0.369  ro[1].ro_counter/temp_0 (ro[1].ro_counter/temp_0)
+     INV:I->O              1   0.238   0.000  ro[1].ro_counter/Mcount_temp_lut<0>_INV_0 (ro[1].ro_counter/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  ro[1].ro_counter/Mcount_temp_cy<0> (ro[1].ro_counter/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<1> (ro[1].ro_counter/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<2> (ro[1].ro_counter/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<3> (ro[1].ro_counter/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<4> (ro[1].ro_counter/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<5> (ro[1].ro_counter/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<6> (ro[1].ro_counter/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<7> (ro[1].ro_counter/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<8> (ro[1].ro_counter/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<9> (ro[1].ro_counter/Mcount_temp_cy<9>)
+     MUXCY:CI->O           0   0.026   0.000  ro[1].ro_counter/Mcount_temp_cy<10> (ro[1].ro_counter/Mcount_temp_cy<10>)
+     XORCY:CI->O           1   0.357   0.000  ro[1].ro_counter/Mcount_temp_xor<11> (Result<11>15)
+     FDCE:D                   -0.018          ro[1].ro_counter/temp_11
     ----------------------------------------
     Total                      2.067ns (1.698ns logic, 0.369ns route)
                                        (82.1% logic, 17.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
-  Total number of paths / destination ports: 337 / 295
+  Total number of paths / destination ports: 946 / 904
 -------------------------------------------------------------------------
 Offset:              5.336ns (Levels of Logic = 7)
   Source:            ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/I_V5.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:SHIFT (PAD)
@@ -726,67 +1750,42 @@ Offset:              5.336ns (Levels of Logic = 7)
                                        (10.6% logic, 89.4% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_counter/temp_111'
-  Total number of paths / destination ports: 16 / 1
--------------------------------------------------------------------------
-Offset:              2.393ns (Levels of Logic = 4)
-  Source:            ro7:dffout (PAD)
-  Destination:       ILA0/U0/I_DQ.G_DW[25].U_DQ (FF)
-  Destination Clock: clock_counter/temp_111 falling
-
-  Data Path: ro7:dffout to ILA0/U0/I_DQ.G_DW[25].U_DQ
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-    ringoscillator:dffout    2   0.000   0.978  ro7 (out7)
-     LUT6:I1->O            1   0.094   0.000  mux1/Mmux_out_6 (mux1/Mmux_out_6)
-     MUXF7:I1->O           1   0.254   0.973  mux1/Mmux_out_5_f7 (mux1/Mmux_out_5_f7)
-     LUT5:I0->O           13   0.094   0.000  muxmux<3>11 (mux1_out)
-     begin scope: 'ILA0'
-     FDP:D                    -0.018          U0/I_DQ.G_DW[25].U_DQ
-    ----------------------------------------
-    Total                      2.393ns (0.442ns logic, 1.951ns route)
-                                       (18.5% logic, 81.5% route)
-
-=========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
-  Total number of paths / destination ports: 385 / 33
+  Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              3.259ns (Levels of Logic = 1)
-  Source:            puf_out_1 (FF)
+Offset:              3.264ns (Levels of Logic = 1)
+  Source:            puf_out (FF)
   Destination:       puf_out (PAD)
   Source Clock:      clock rising
 
-  Data Path: puf_out_1 to puf_out
+  Data Path: puf_out to puf_out
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              1   0.471   0.336  puf_out_1 (puf_out_1)
+     FDR:C->Q              2   0.471   0.341  puf_out (puf_out_OBUF)
      OBUF:I->O                 2.452          puf_out_OBUF (puf_out)
     ----------------------------------------
-    Total                      3.259ns (2.923ns logic, 0.336ns route)
-                                       (89.7% logic, 10.3% route)
+    Total                      3.264ns (2.923ns logic, 0.341ns route)
+                                       (89.6% logic, 10.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL'
-  Total number of paths / destination ports: 33 / 33
+  Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              1.388ns (Levels of Logic = 2)
-  Source:            VIO0/U0/I_VIO/GEN_ASYNC_OUT[1].ASYNC_OUT_CELL/USER_REG (FF)
-  Destination:       ro1:reset (PAD)
+Offset:              0.471ns (Levels of Logic = 0)
+  Source:            ICON0/U0/U_ICON/U_TDO_reg (FF)
+  Destination:       ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/I_V5.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:TDO (PAD)
   Source Clock:      ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising
 
-  Data Path: VIO0/U0/I_VIO/GEN_ASYNC_OUT[1].ASYNC_OUT_CELL/USER_REG to ro1:reset
+  Data Path: ICON0/U0/U_ICON/U_TDO_reg to ICON0/U0/U_ICON/I_YES_BSCAN.U_BS/I_V5.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS:TDO
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             22   0.471   0.823  U0/I_VIO/GEN_ASYNC_OUT[1].ASYNC_OUT_CELL/USER_REG (ASYNC_OUT<1>)
-     end scope: 'VIO0'
-     LUT3:I0->O            0   0.094   0.000  freset_or00001 (freset)
-    ringoscillator:reset        0.000          ro1
+     FDE:C->Q              0   0.471   0.000  U0/U_ICON/U_TDO_reg (U0/U_ICON/iTDO)
+    BSCAN_VIRTEX5:TDO          0.000          U0/U_ICON/I_YES_BSCAN.U_BS/I_V5.ISYN.I_USE_SOFTBSCAN_EQ0.U_BS
     ----------------------------------------
-    Total                      1.388ns (0.565ns logic, 0.823ns route)
-                                       (40.7% logic, 59.3% route)
+    Total                      0.471ns (0.471ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
 
 =========================================================================
 WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to ICON0.
@@ -797,14 +1796,14 @@ WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to ILA0.
 WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to ILA0.
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 13.11 secs
+Total REAL time to Xst completion: 37.00 secs
+Total CPU time to Xst completion: 36.74 secs
  
 --> 
 
-Total memory usage is 4632508 kilobytes
+Total memory usage is 4714560 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   59 (   0 filtered)
+Number of warnings :  113 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

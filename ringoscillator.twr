@@ -2,8 +2,8 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
--n 3 -fastpaths -xml ringoscillator.twx ringoscillator.ncd -o
+D:\programs\xilinxprogram\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle
+ise -v 3 -s 1 -n 3 -fastpaths -xml ringoscillator.twx ringoscillator.ncd -o
 ringoscillator.twr ringoscillator.pcf
 
 Design file:              ringoscillator.ncd
@@ -37,7 +37,7 @@ Clock enable to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-dffout      |   11.988(R)|pufOut            |   0.000|
+dffout      |   14.420(R)|pufOut            |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock enable
@@ -45,18 +45,18 @@ Clock to Setup on destination clock enable
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-enable         |    0.798|         |         |         |
+enable         |    0.877|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sun Mar 24 03:54:32 2019 
+Analysis completed Fri May 03 21:45:04 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4790 MB
+Peak Memory Usage: 4793 MB
 
 
 

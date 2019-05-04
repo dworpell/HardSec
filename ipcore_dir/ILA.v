@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2018 Xilinx, Inc.
+// Copyright (c) 2019 Xilinx, Inc.
 // All Rights Reserved
 ///////////////////////////////////////////////////////////////////////////////
 //   ____  ____
@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : ILA.v
-// /___/   /\     Timestamp  : Tue Feb 27 20:08:56 Eastern Standard Time 2018
+// /___/   /\     Timestamp  : Fri May 03 20:01:28 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -28,7 +28,7 @@ module ILA(
 
 inout [35 : 0] CONTROL;
 input CLK;
-input [37 : 0] DATA;
+input [229 : 0] DATA;
 input [11 : 0] TRIG0;
 input [11 : 0] TRIG1;
 

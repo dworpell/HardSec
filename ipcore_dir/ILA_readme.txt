@@ -1,5 +1,5 @@
 The following files were generated for 'ILA' in directory
-C:\Users\Onur\Desktop\ise\ringpuf\ipcore_dir\
+C:\Users\rdavi\Downloads\ringpuf_student\ipcore_dir\
 
 XCO file generator:
    Generate an XCO file for compatibility with legacy flows.

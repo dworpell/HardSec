@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Wed Feb 28 01:09:13 2018
+# Date: Fri May 03 23:45:38 2019
 #
 ##############################################################
 #
@@ -39,7 +39,7 @@ SET vhdlsim = false
 SELECT VIO_(ChipScope_Pro_-_Virtual_Input/Output) family Xilinx,_Inc. 1.05.a
 # END Select
 # BEGIN Parameters
-CSET asynchronous_input_port_width=25
+CSET asynchronous_input_port_width=192
 CSET asynchronous_output_port_width=10
 CSET component_name=VIO
 CSET constraint_type=external
@@ -56,4 +56,4 @@ CSET synchronous_output_port_width=8
 MISC pkg_timestamp=2013-10-13T14:13:48Z
 # END Extra information
 GENERATE
-# CRC: dd6eea9c
+# CRC: 888d3620

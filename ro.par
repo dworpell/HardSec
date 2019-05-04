@@ -1,9 +1,9 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DAVIS-LAPTOP::  Fri May 03 19:01:11 2019
+DAVIS-LAPTOP::  Fri May 03 23:09:31 2019
 
-par -w -intstyle ise -ol high -mt off ro_map.ncd ro.ncd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
 
 
 Constraints file: ro.pcf.
@@ -28,54 +28,51 @@ Device speed data version:  "PRODUCTION 1.73 2013-10-13".
 Device Utilization Summary:
 
    Number of BSCANs                          1 out of 4      25%
-   Number of BUFGs                           3 out of 32      9%
+   Number of BUFGs                           2 out of 32      6%
    Number of External IOBs                   2 out of 640     1%
       Number of LOCed IOBs                   1 out of 2      50%
 
-   Number of OLOGICs                         1 out of 800     1%
-   Number of RAMB36_EXPs                    10 out of 148     6%
-   Number of Slices                        362 out of 17280   2%
-   Number of Slice Registers               631 out of 69120   1%
-      Number used as Flip Flops            630
+   Number of RAMB36_EXPs                    58 out of 148    39%
+   Number of Slices                       1289 out of 17280   7%
+   Number of Slice Registers              2191 out of 69120   3%
+      Number used as Flip Flops           2190
       Number used as Latches                 1
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                    618 out of 69120   1%
-   Number of Slice LUT-Flip Flop pairs     935 out of 69120   1%
+   Number of Slice LUTS                   1560 out of 69120   2%
+   Number of Slice LUT-Flip Flop pairs    2581 out of 69120   3%
 
 
-Overall effort level (-ol):   High 
-Router effort level (-rl):    High 
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    Standard 
 
-Starting initial Timing Analysis.  REAL time: 7 secs 
-Finished initial Timing Analysis.  REAL time: 7 secs 
+Starting initial Timing Analysis.  REAL time: 8 secs 
+Finished initial Timing Analysis.  REAL time: 8 secs 
 
 Starting Router
 
 
-Phase  1  : 3676 unrouted;      REAL time: 8 secs 
+Phase  1  : 14280 unrouted;      REAL time: 10 secs 
 
-Phase  2  : 2640 unrouted;      REAL time: 9 secs 
+Phase  2  : 9910 unrouted;      REAL time: 11 secs 
 
-Phase  3  : 466 unrouted;      REAL time: 9 secs 
+Phase  3  : 655 unrouted;      REAL time: 16 secs 
 
-Phase  4  : 516 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+Phase  4  : 719 unrouted; (Par is working to improve performance)     REAL time: 22 secs 
 
-Updating file: ro.ncd with current fully routed design.
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 26 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
-
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
-Total REAL time to Router completion: 23 secs 
-Total CPU time to Router completion: 23 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 27 secs 
+Total REAL time to Router completion: 27 secs 
+Total CPU time to Router completion: 27 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -95,79 +92,111 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net cnt | SETUP       |         N/A|     5.235ns|     N/A|           0
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.585ns|     N/A|           0
+  s<10>                                     | HOLD        |     0.696ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.977ns|     N/A|           0
+  s<11>                                     | HOLD        |     0.567ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.690ns|     N/A|           0
+  s<12>                                     | HOLD        |     0.680ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.849ns|     N/A|           0
+  s<13>                                     | HOLD        |     0.427ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.588ns|     N/A|           0
+  s<14>                                     | HOLD        |     0.632ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.515ns|     N/A|           0
+  s<15>                                     | HOLD        |     0.692ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.565ns|     N/A|           0
+  s<0>                                      | HOLD        |     0.680ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.461ns|     N/A|           0
+  s<1>                                      | HOLD        |     0.690ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.904ns|     N/A|           0
+  s<2>                                      | HOLD        |     0.690ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     2.007ns|     N/A|           0
+  s<3>                                      | HOLD        |     0.692ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.795ns|     N/A|           0
+  s<4>                                      | HOLD        |     0.673ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.768ns|     N/A|           0
+  s<5>                                      | HOLD        |     0.690ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.598ns|     N/A|           0
+  s<6>                                      | HOLD        |     0.692ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.683ns|     N/A|           0
+  s<7>                                      | HOLD        |     0.680ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.443ns|     N/A|           0
+  s<8>                                      | HOLD        |     0.673ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net out | SETUP       |         N/A|     1.431ns|     N/A|           0
+  s<9>                                      | HOLD        |     0.528ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net cnt | SETUP       |         N/A|     8.705ns|     N/A|           0
   bus<0>                                    | HOLD        |     0.318ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clo | SETUP       |         N/A|     2.953ns|     N/A|           0
-  ck_counter/temp<11>                       | HOLD        |     0.241ns|            |       0|           0
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|     4.456ns|     N/A|           0
+  ck_BUFGP                                  | HOLD        |     0.305ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net mux | SETUP       |         N/A|     1.630ns|     N/A|           0
-  1_out                                     | HOLD        |     0.702ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clo | SETUP       |         N/A|     2.876ns|     N/A|           0
-  ck_BUFGP                                  | HOLD        |     0.686ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net mux | SETUP       |         N/A|     1.622ns|     N/A|           0
-  2_out                                     | HOLD        |     0.709ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ICO | SETUP       |         N/A|     0.818ns|     N/A|           0
-  N0/U0/iUPDATE_OUT                         | HOLD        |     0.495ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.837ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.517ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro2 | SETUP       |         N/A|     0.838ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.518ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro3 | SETUP       |         N/A|     0.841ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.521ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro4 | SETUP       |         N/A|     0.796ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.480ns|            |       0|           0
+  Autotimespec constraint for clock net ICO | SETUP       |         N/A|     0.817ns|     N/A|           0
+  N0/U0/iUPDATE_OUT                         | HOLD        |     0.498ns|            |       0|           0
                                             | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro5 | SETUP       |         N/A|     0.796ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.480ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.879ns|     N/A|           0
+  10].ro/pufOut                             | HOLD        |     0.556ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro6 | SETUP       |         N/A|     0.838ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.518ns|            |       0|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.879ns|     N/A|           0
+  11].ro/pufOut                             | HOLD        |     0.556ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro7 | SETUP       |         N/A|     0.798ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.482ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.875ns|     N/A|           0
+  12].ro/pufOut                             | HOLD        |     0.552ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro8 | SETUP       |         N/A|     0.844ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.524ns|            |       0|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.877ns|     N/A|           0
+  13].ro/pufOut                             | HOLD        |     0.554ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro9 | SETUP       |         N/A|     0.801ns|     N/A|           0
-  /pufOut                                   | HOLD        |     0.484ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.877ns|     N/A|           0
+  14].ro/pufOut                             | HOLD        |     0.554ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.801ns|     N/A|           0
-  0/pufOut                                  | HOLD        |     0.484ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.896ns|     N/A|           0
+  15].ro/pufOut                             | HOLD        |     0.572ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.798ns|     N/A|           0
-  1/pufOut                                  | HOLD        |     0.482ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.884ns|     N/A|           0
+  0].ro/pufOut                              | HOLD        |     0.561ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.838ns|     N/A|           0
-  2/pufOut                                  | HOLD        |     0.518ns|            |       0|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.877ns|     N/A|           0
+  1].ro/pufOut                              | HOLD        |     0.554ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.838ns|     N/A|           0
-  3/pufOut                                  | HOLD        |     0.518ns|            |       0|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.879ns|     N/A|           0
+  2].ro/pufOut                              | HOLD        |     0.556ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.802ns|     N/A|           0
-  4/pufOut                                  | HOLD        |     0.485ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.879ns|     N/A|           0
+  3].ro/pufOut                              | HOLD        |     0.556ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.800ns|     N/A|           0
-  5/pufOut                                  | HOLD        |     0.483ns|            |       0|           0
-                                            | MINLOWPULSE |         N/A|     0.818ns|     N/A|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.875ns|     N/A|           0
+  4].ro/pufOut                              | HOLD        |     0.552ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net ro1 | SETUP       |         N/A|     0.838ns|     N/A|           0
-  6/pufOut                                  | HOLD        |     0.518ns|            |       0|           0
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.898ns|     N/A|           0
+  5].ro/pufOut                              | HOLD        |     0.573ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.875ns|     N/A|           0
+  6].ro/pufOut                              | HOLD        |     0.552ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.879ns|     N/A|           0
+  7].ro/pufOut                              | HOLD        |     0.556ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.886ns|     N/A|           0
+  8].ro/pufOut                              | HOLD        |     0.562ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net ro[ | SETUP       |         N/A|     0.886ns|     N/A|           0
+  9].ro/pufOut                              | HOLD        |     0.562ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -183,10 +212,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 26 secs 
-Total CPU time to PAR completion: 26 secs 
+Total REAL time to PAR completion: 30 secs 
+Total CPU time to PAR completion: 31 secs 
 
-Peak Memory Usage:  4800 MB
+Peak Memory Usage:  4826 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

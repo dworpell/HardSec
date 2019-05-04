@@ -1,0 +1,98 @@
+#:C39    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\rdavi\Downloads\ringpuf_student
+#Date/Time:
+#:T   Fri May 03 22:29:49 2019
+#------------------------------
+	#Reading ro.ncd...
+	#Loading device for application Rf_Device from file '5vlx110t.nph' in environment D:\programs\xilinxprogram\14.7\ISE_DS\ISE\.
+	#   "ro" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+	#   "ringoscillator" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+	#Design creation date: 2019.05.04.01.54.58
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k net 'ro[0].ro_counter/temp<1>'
+	#3
+unselect net 'ro[0].ro_counter/temp<1>'
+	#4
+select -k net 'ro[0].ro_counter/temp<3>'
+	#5
+unselect net 'ro[0].ro_counter/temp<3>'
+	#6
+select -k net 'ro[0].ro_counter/temp<10>'
+	#7
+unselect net 'ro[0].ro_counter/temp<10>'
+	#8
+select -k net 'ro[0].ro_counter/temp<9>'
+	#9
+unselect net 'ro[0].ro_counter/temp<9>'
+	#10
+select -k net 'ro[9].ro_counter/temp<5>'
+	#11
+unselect net 'ro[9].ro_counter/temp<5>'
+	#12
+select -k net 'ro[9].ro/in12'
+	#13
+unselect net 'ro[9].ro/in12'
+	#14
+select -k net 'ro[9].ro/pufOut'
+	#15
+unselect -all
+	#16
+unselect -all
+	#17
+unselect -all
+	#18
+unselect -all
+	#19
+select hm 'ro[8].ro'
+	#Hard Macro Inst "ro[8].ro", type "ringoscillator", refcomp "ro[8].ro/in5"
+	#20
+unselect -all
+	#21
+select comp 'ro[8].ro/in5'
+	#comp "ro[8].ro/in5" in hard macro "ro[8].ro",  site "SLICE_X18Y100",  type = SLICEL  (RPM grid X49Y200)
+	#22
+post block
+	#23
+unselect -all
+	#24
+unselect -all
+	#25
+unselect -all
+	#26
+unselect -all
+	#27
+unselect -all
+	#28
+select -k net 'ro[9].ro_counter/temp<4>'
+	#29
+unselect net 'ro[9].ro_counter/temp<4>'
+	#30
+select -k net 'ro[9].ro_counter/temp<0>'
+	#31
+unselect net 'ro[9].ro_counter/temp<0>'
+	#32
+select -k net 'ro[9].ro_counter/temp<6>'
+	#33
+unselect net 'ro[9].ro_counter/temp<6>'
+	#34
+select -k net 'ro[9].ro/in12'
+	#35
+unselect net 'ro[9].ro/in12'
+	#36
+select -k net 'ro[9].ro/in11'
+	#37
+unselect net 'ro[9].ro/in11'
+	#38
+select -k net 'ro[9].ro/in1'
+	#39
+unselect net 'ro[9].ro/in1'
+	#40
+select -k net 'ro[9].ro_counter/Mcount_temp_cy<3>'

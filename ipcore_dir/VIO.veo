@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2018 Xilinx, Inc.
+// Copyright (c) 2019 Xilinx, Inc.
 // All Rights Reserved
 ///////////////////////////////////////////////////////////////////////////////
 //   ____  ____
@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : VIO.veo
-// /___/   /\     Timestamp  : Tue Feb 27 20:09:54 Eastern Standard Time 2018
+// /___/   /\     Timestamp  : Fri May 03 19:46:25 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -22,7 +22,7 @@
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 VIO YourInstanceName (
     .CONTROL(CONTROL), // INOUT BUS [35:0]
-    .ASYNC_IN(ASYNC_IN), // IN BUS [24:0]
+    .ASYNC_IN(ASYNC_IN), // IN BUS [191:0]
     .ASYNC_OUT(ASYNC_OUT) // OUT BUS [9:0]
 );
 

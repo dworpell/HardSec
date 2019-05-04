@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: ringoscillator.prj
 
@@ -120,11 +120,30 @@ Analysis of file <"ringoscillator.prj"> succeeded.
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
+Analyzing hierarchy for module <ringoscillator> in library <work>.
+
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing top module <ringoscillator>.
+Module <ringoscillator> is correct for synthesis.
+ 
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for unit <ringoscillator> (previous value was "KEEP_HIERARCHY No").
+    Set user-defined property "S =  TRUE" for signal <pufOut>.
+    Set user-defined property "S =  TRUE" for signal <in1>.
+    Set user-defined property "S =  TRUE" for signal <in2>.
+    Set user-defined property "S =  TRUE" for signal <in3>.
+    Set user-defined property "S =  TRUE" for signal <in4>.
+    Set user-defined property "S =  TRUE" for signal <in5>.
+    Set user-defined property "S =  TRUE" for signal <in6>.
+    Set user-defined property "S =  TRUE" for signal <in7>.
+    Set user-defined property "S =  TRUE" for signal <in8>.
+    Set user-defined property "S =  TRUE" for signal <in9>.
+    Set user-defined property "S =  TRUE" for signal <in10>.
+    Set user-defined property "S =  TRUE" for signal <in11>.
+    Set user-defined property "S =  TRUE" for signal <in12>.
+    Set user-defined property "S =  TRUE" for signal <in13>.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -134,13 +153,19 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <ringoscillator>.
     Related source file is "ringoscillator.v".
+    Found 1-bit register for signal <dffout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
 Unit <ringoscillator> synthesized.
 
 
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 1
+ 1-bit register                                        : 1
+
 =========================================================================
 
 =========================================================================
@@ -151,12 +176,16 @@ Found no macro
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:2170 - Unit ringoscillator : the following signal(s) form a combinatorial loop: in8, pufOut, in7, in2, in10, in9, in5, in6, in1, in11, in4, in13, in3, in12.
 
 Optimizing unit <ringoscillator> ...
 
@@ -169,7 +198,10 @@ Final Macro Processing ...
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
 =========================================================================
 
 =========================================================================
@@ -194,9 +226,18 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 0
+# IOs                              : 3
 
 Cell Usage :
+# BELS                             : 15
+#      INV                         : 1
+#      LUT1                        : 13
+#      LUT2                        : 1
+# FlipFlops/Latches                : 1
+#      FDC                         : 1
+# IO Buffers                       : 3
+#      IBUF                        : 2
+#      OBUF                        : 1
 =========================================================================
 
 Device utilization summary:
@@ -206,17 +247,20 @@ Selected Device : 5vlx110tff1136-1
 
 
 Slice Logic Utilization: 
+ Number of Slice Registers:               1  out of  69120     0%  
+ Number of Slice LUTs:                   15  out of  69120     0%  
+    Number used as Logic:                15  out of  69120     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      0
-   Number with an unused Flip Flop:       0  out of      0         
-   Number with an unused LUT:             0  out of      0         
-   Number of fully used LUT-FF pairs:     0  out of      0         
-   Number of unique control sets:         0
+ Number of LUT Flip Flop pairs used:     15
+   Number with an unused Flip Flop:      14  out of     15    93%  
+   Number with an unused LUT:             0  out of     15     0%  
+   Number of fully used LUT-FF pairs:     1  out of     15     6%  
+   Number of unique control sets:         1
 
 IO Utilization: 
- Number of IOs:                           0
- Number of bonded IOBs:                   0  out of    640     0%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    640     0%  
 
 Specific Feature Utilization:
 
@@ -238,19 +282,31 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-No clock signals found in this design
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+in1(in11:O)                        | NONE(*)(dffout)        | 1     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
-No asynchronous control signals found in this design
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 1     |
+-----------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: No path found
+   Minimum period: 1.386ns (Maximum Frequency: 721.501MHz)
    Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
+   Maximum output required time after clock: 3.264ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -258,16 +314,57 @@ Timing Detail:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'in1'
+  Clock period: 1.386ns (frequency: 721.501MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.386ns (Levels of Logic = 1)
+  Source:            dffout (FF)
+  Destination:       dffout (FF)
+  Source Clock:      in1 falling
+  Destination Clock: in1 falling
+
+  Data Path: dffout to dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     INV:I->O              1   0.238   0.336  dffout_not00011_INV_0 (dffout_not0001)
+     FDC:D                    -0.018          dffout
+    ----------------------------------------
+    Total                      1.386ns (0.709ns logic, 0.677ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'in1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.264ns (Levels of Logic = 1)
+  Source:            dffout (FF)
+  Destination:       dffout (PAD)
+  Source Clock:      in1 falling
+
+  Data Path: dffout to dffout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.341  dffout (dffout_OBUF)
+     OBUF:I->O                 2.452          dffout_OBUF (dffout)
+    ----------------------------------------
+    Total                      3.264ns (2.923ns logic, 0.341ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 3.95 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.25 secs
  
 --> 
 
-Total memory usage is 4569072 kilobytes
+Total memory usage is 4583948 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
 

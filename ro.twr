@@ -37,7 +37,7 @@ Clock clock to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-puf_out     |    7.597(R)|clock_BUFGP       |   0.000|
+puf_out     |    8.539(R)|clock_BUFGP       |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clock
@@ -45,18 +45,18 @@ Clock to Setup on destination clock clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clock          |    2.876|         |         |         |
+clock          |    4.456|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri May 03 19:01:48 2019 
+Analysis completed Fri May 03 23:10:17 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4830 MB
+Peak Memory Usage: 4883 MB
 
 
 

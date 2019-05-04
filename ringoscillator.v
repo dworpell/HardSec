@@ -8,13 +8,13 @@ module ringoscillator(enable, reset, dffout);
     output dffout;
 	 
    //Comment out the line below while implementing your design with hard macro
-	/*(* S = "TRUE" *)
+	//(* S = "TRUE" *)
 	
 	//Write the code for your ring oscillator
 	//Comment it out after you create the hard macro
-	wire in1,in2,in3,in4,in5,in6,in7,in8,in9,in10,in11,pufOut;
+	/*wire in1,in2,in3,in4,in5,in6,in7,in8,in9,in10,in11,in12,in13,pufOut;
 	reg dffout;
-	/*and a1 (in1, enable, pufOut);
+	and a1 (in1, enable, pufOut);
 	not inv1 (in2, in1);
 	not inv2 (in3, in2);
 	not inv3 (in4, in3);
@@ -25,7 +25,9 @@ module ringoscillator(enable, reset, dffout);
 	not inv8 (in9, in8);
 	not inv9 (in10, in9);
 	not inv10 (in11, in10);
-	not inv11 (pufOut, in11);*/
+	not inv11 (in12, in11);
+	not inv12 (in13, in12);
+	not inv13 (pufOut, in13);*/
 	/*assign in2 = ~(enable & pufOut);
 	assign in3 = ~in2;
 	assign in4 = ~in3;
@@ -36,8 +38,8 @@ module ringoscillator(enable, reset, dffout);
 	assign in9 = ~in8;
 	assign in10 = ~in9;
 	assign in11 = ~in10;
-	assign pufOut = ~in11;
-	always @(posedge pufOut, posedge reset) begin
+	assign pufOut = ~in11;*/
+	/*always @(posedge pufOut, posedge reset) begin
 		if (reset)
 			dffout<=0;
 		else

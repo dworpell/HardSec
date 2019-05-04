@@ -5,115 +5,229 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 124 </arg>Connection to input port &apos;<arg fmt="%s" index="2">TRIG1</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in1</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in2</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in3</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">62</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in4</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in5</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in6</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in7</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in8</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in9</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in10</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in11</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in12</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in13</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in14</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in15</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 25 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in16</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in2</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in3</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in4</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in5</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in6</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in7</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in8</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in9</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in10</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in11</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in12</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in13</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in14</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in15</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;top.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in16</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 114 </arg>Connection to input port &apos;<arg fmt="%s" index="2">TRIG1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/ICON.v</arg>&quot; line <arg fmt="%d" index="2">102</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ICON</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/VIO.v</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/ILA.v</arg>&quot; line <arg fmt="%d" index="2">109</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ILA</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">65</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">66</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">67</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">68</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">69</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">71</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">72</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">74</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">75</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/ICON.v</arg>&quot; line <arg fmt="%d" index="2">112</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ICON</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/VIO.v</arg>&quot; line <arg fmt="%d" index="2">115</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VIO</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/ILA.v</arg>&quot; line <arg fmt="%d" index="2">119</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ILA</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ringoscillator.v</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ringoscillator</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">resetmux2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">outs&lt;16&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out9</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out8</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out7</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out6</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out5</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out4</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out3</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out16</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out15</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out14</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out13</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out12</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out11</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1814" delta="old" >Core &lt;<arg fmt="%s" index="1">ringoscillator.ngc</arg>&gt; does not contain any logic.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out10</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">out1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ila_data&lt;24:17&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">fakeclock</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">enable2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">counter2_out</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">counter1_out</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">muxincoconut/temp_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ro</arg>&gt;.
@@ -163,6 +277,38 @@
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">mux2incoconut/temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ro</arg>&gt;.
 </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[0].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[1].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[2].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[3].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[4].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[5].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[6].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[7].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[8].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[9].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[10].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[11].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[12].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[13].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[14].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">ro[15].ro</arg> : the following signal(s) form a combinatorial loop: </msg>
 
 <msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>

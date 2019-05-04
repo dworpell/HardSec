@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2018 Xilinx, Inc.
+// Copyright (c) 2019 Xilinx, Inc.
 // All Rights Reserved
 ///////////////////////////////////////////////////////////////////////////////
 //   ____  ____
@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : ILA.veo
-// /___/   /\     Timestamp  : Tue Feb 27 20:08:56 Eastern Standard Time 2018
+// /___/   /\     Timestamp  : Fri May 03 20:01:28 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -23,7 +23,7 @@
 ILA YourInstanceName (
     .CONTROL(CONTROL), // INOUT BUS [35:0]
     .CLK(CLK), // IN
-    .DATA(DATA), // IN BUS [37:0]
+    .DATA(DATA), // IN BUS [229:0]
     .TRIG0(TRIG0), // IN BUS [11:0]
     .TRIG1(TRIG1) // IN BUS [11:0]
 );

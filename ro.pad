@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri May 03 19:01:38 2019
+Fri May 03 23:10:02 2019
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -79,7 +79,7 @@ AA28||IOBS|IO_L5N_21|UNUSED||21|||||||||
 AA29||IOBM|IO_L11P_CC_17|UNUSED||17|||||||||
 AA30||IOBS|IO_L11N_CC_17|UNUSED||17|||||||||
 AA31||IOBS|IO_L9N_CC_17|UNUSED||17|||||||||
-AA32|||VCCO_13|||13|||||2.50||||
+AA32|||VCCO_13|||13|||||any******||||
 AA33||IOBS|IO_L2N_SM6N_13|UNUSED||13|||||||||
 AA34||IOBM|IO_L3P_SM5P_13|UNUSED||13|||||||||
 AB1||IPAD|MGTRXP1_114|UNUSED|||||||||||
@@ -110,7 +110,7 @@ AB25||IOBM|IO_L3P_21|UNUSED||21|||||||||
 AB26||IOBS|IO_L3N_21|UNUSED||21|||||||||
 AB27||IOBM|IO_L1P_21|UNUSED||21|||||||||
 AB28||IOBM|IO_L5P_21|UNUSED||21|||||||||
-AB29|||VCCO_13|||13|||||2.50||||
+AB29|||VCCO_13|||13|||||any******||||
 AB30||IOBM|IO_L10P_CC_17|UNUSED||17|||||||||
 AB31||IOBM|IO_L9P_CC_17|UNUSED||17|||||||||
 AB32||IOBS|IO_L6N_SM3N_13|UNUSED||13|||||||||
@@ -231,7 +231,7 @@ AF12|||GND||||||||||||
 AF13||IOBM|IO_L2P_A23_2|UNUSED||2|||||||||
 AF14||IOBS|IO_L4N_VREF_FOE_B_MOSI_2|UNUSED||2|||||||||
 AF15||IOBM|IO_L6P_D7_2|UNUSED||2|||||||||
-AF16||IOBM|IO_L8P_D3_2|UNUSED||2|||||||||
+AF16|puf_out|IOB|IO_L8P_D3_2|OUTPUT|LVCMOS25*|2|12|SLOW||||UNLOCATED|NO|NONE|
 AF17|||GND||||||||||||
 AF18||IOBM|IO_L8P_CC_GC_4|UNUSED||4|||||||||
 AF19||IOBS|IO_L6N_GC_4|UNUSED||4|||||||||
@@ -304,7 +304,7 @@ AH17||IOBM|IO_L7P_GC_VRN_4|UNUSED||4|||||||||
 AH18||IOBM|IO_L9P_CC_GC_4|UNUSED||4|||||||||
 AH19||IOBS|IO_L2N_GC_D10_4|UNUSED||4|||||||||
 AH20||IOBM|IO_L2P_GC_D11_4|UNUSED||4|||||||||
-AH21|||VCCO_2|||2|||||any******||||
+AH21|||VCCO_2|||2|||||2.50||||
 AH22||IOBS|IO_L0N_GC_D14_4|UNUSED||4|||||||||
 AH23||IOBM|IO_L2P_6|UNUSED||6|||||||||
 AH24||IOBM|IO_L0P_6|UNUSED||6|||||||||
@@ -436,7 +436,7 @@ AM15||IOBM|IO_L16P_6|UNUSED||6|||||||||
 AM16||IOBS|IO_L16N_6|UNUSED||6|||||||||
 AM17||IOBM|IO_L19P_6|UNUSED||6|||||||||
 AM18||IOBS|IO_L17N_25|UNUSED||25|||||||||
-AM19|||VCCO_2|||2|||||any******||||
+AM19|||VCCO_2|||2|||||2.50||||
 AM20||IOBS|IO_L13N_25|UNUSED||25|||||||||
 AM21||IOBM|IO_L13P_25|UNUSED||25|||||||||
 AM22||IOBS|IO_L16N_25|UNUSED||25|||||||||
@@ -1114,11 +1114,11 @@ W24||IOBM|IO_L0P_17|UNUSED||17|||||||||
 W25||IOBS|IO_L2N_17|UNUSED||17|||||||||
 W26||IOBS|IO_L1N_17|UNUSED||17|||||||||
 W27||IOBS|IO_L3N_17|UNUSED||17|||||||||
-W28|||VCCO_13|||13|||||2.50||||
+W28|||VCCO_13|||13|||||any******||||
 W29||IOBM|IO_L7P_17|UNUSED||17|||||||||
 W30||IOBS|IO_L4N_VREF_17|UNUSED||17|||||||||
 W31||IOBM|IO_L6P_17|UNUSED||17|||||||||
-W32|puf_out|IOB|IO_L4N_VREF_13|OUTPUT|LVCMOS25*|13|12|SLOW||||UNLOCATED|YES|NONE|
+W32||IOBS|IO_L4N_VREF_13|UNUSED||13|||||||||
 W33|||GND||||||||||||
 W34||IOBM|IO_L1P_SM7P_13|UNUSED||13|||||||||
 Y1||IPAD|MGTRXN0_114|UNUSED|||||||||||

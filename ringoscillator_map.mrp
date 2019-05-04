@@ -11,7 +11,7 @@ Target Device  : xc5vlx110t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.55 $
-Mapped Date    : Sun Mar 24 03:54:04 2019
+Mapped Date    : Fri May 03 21:44:25 2019
 
 Design Summary
 --------------
@@ -20,16 +20,16 @@ Number of warnings:    1
 Slice Logic Utilization:
   Number of Slice Registers:                     1 out of  69,120    1%
     Number used as Flip Flops:                   1
-  Number of Slice LUTs:                         12 out of  69,120    1%
-    Number used as logic:                       12 out of  69,120    1%
-      Number using O6 output only:              12
+  Number of Slice LUTs:                         15 out of  69,120    1%
+    Number used as logic:                       15 out of  69,120    1%
+      Number using O6 output only:              15
 
 Slice Logic Distribution:
-  Number of occupied Slices:                     4 out of  17,280    1%
-  Number of LUT Flip Flop pairs used:           12
-    Number with an unused Flip Flop:            11 out of      12   91%
-    Number with an unused LUT:                   0 out of      12    0%
-    Number of fully used LUT-FF pairs:           1 out of      12    8%
+  Number of occupied Slices:                     6 out of  17,280    1%
+  Number of LUT Flip Flop pairs used:           15
+    Number with an unused Flip Flop:            14 out of      15   93%
+    Number with an unused LUT:                   0 out of      15    0%
+    Number of fully used LUT-FF pairs:           1 out of      15    6%
     Number of unique control sets:               1
     Number of slice register sites lost
       to control set restrictions:               3 out of  69,120    1%
@@ -47,11 +47,11 @@ IO Utilization:
 
 Specific Feature Utilization:
 
-Average Fanout of Non-Clock Nets:                1.08
+Average Fanout of Non-Clock Nets:                1.06
 
-Peak Memory Usage:  4819 MB
-Total REAL time to MAP completion:  7 secs 
-Total CPU time to MAP completion:   7 secs 
+Peak Memory Usage:  4818 MB
+Total REAL time to MAP completion:  11 secs 
+Total CPU time to MAP completion:   11 secs 
 
 Table of Contents
 -----------------
