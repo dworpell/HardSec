@@ -1,8 +1,8 @@
 INTSTYLE=impact
-INFILE=C:\Users\rdavi\Downloads\ringpuf_student\impact.xsl
-OUTFILE=C:\Users\rdavi\Downloads\ringpuf_student\impact.xsl
+INFILE=C:\Users\DanRW\Downloads\HardSec-master\impact.xsl
+OUTFILE=C:\Users\DanRW\Downloads\HardSec-master\impact.xsl
 FAMILY=Multiple
 PART=Multiple
-WORKINGDIR=C:\Users\rdavi\Downloads\ringpuf_student
+WORKINGDIR=C:\Users\DanRW\Downloads\HardSec-master
 LICENSE=iMPACT
 USER_INFO=iMPACT

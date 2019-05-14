@@ -1,10 +1,13 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri May 03 23:10:24 2019
+Mon May 13 23:24:58 2019
 
 drc -z ro.ncd ro.pcf
 
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rng/xorout is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net ilacntbus<13> is sourced by
    a combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
@@ -56,5 +59,7 @@ WARNING:PhysDesignRules:372 - Gated clock. Clock net ro[8].ro/pufOut is sourced
 WARNING:PhysDesignRules:372 - Gated clock. Clock net ro[9].ro/pufOut is sourced
    by a combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
-DRC detected 0 errors and 17 warnings.  Please see the previously displayed
+WARNING:PhysDesignRules:367 - The signal <VIO0/U0/I_VIO/UPDATE<11>> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 19 warnings.  Please see the previously displayed
 individual error or warning messages for more details.

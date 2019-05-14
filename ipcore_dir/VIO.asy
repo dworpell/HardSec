@@ -12,6 +12,6 @@ PINATTR PinName async_in[191:0]
 PINATTR Polarity IN
 LINE Wide 352 80 320 80
 PIN 352 80 RIGHT 36
-PINATTR PinName async_out[9:0]
+PINATTR PinName async_out[11:0]
 PINATTR Polarity OUT
 

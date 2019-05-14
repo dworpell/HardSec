@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : ILA.veo
-// /___/   /\     Timestamp  : Fri May 03 20:01:28 Eastern Daylight Time 2019
+// /___/   /\     Timestamp  : Mon May 13 01:51:55 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -23,9 +23,10 @@
 ILA YourInstanceName (
     .CONTROL(CONTROL), // INOUT BUS [35:0]
     .CLK(CLK), // IN
-    .DATA(DATA), // IN BUS [229:0]
+    .DATA(DATA), // IN BUS [413:0]
     .TRIG0(TRIG0), // IN BUS [11:0]
-    .TRIG1(TRIG1) // IN BUS [11:0]
+    .TRIG1(TRIG1), // IN BUS [11:0]
+    .TRIG2(TRIG2) // IN BUS [11:0]
 );
 
 // INST_TAG_END ------ End INSTANTIATION Template ---------

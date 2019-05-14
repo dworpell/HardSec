@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : VIO.veo
-// /___/   /\     Timestamp  : Fri May 03 19:46:25 Eastern Daylight Time 2019
+// /___/   /\     Timestamp  : Mon May 13 14:44:00 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -23,7 +23,7 @@
 VIO YourInstanceName (
     .CONTROL(CONTROL), // INOUT BUS [35:0]
     .ASYNC_IN(ASYNC_IN), // IN BUS [191:0]
-    .ASYNC_OUT(ASYNC_OUT) // OUT BUS [9:0]
+    .ASYNC_OUT(ASYNC_OUT) // OUT BUS [11:0]
 );
 
 // INST_TAG_END ------ End INSTANTIATION Template ---------

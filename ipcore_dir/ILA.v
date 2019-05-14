@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : ILA.v
-// /___/   /\     Timestamp  : Fri May 03 20:01:28 Eastern Daylight Time 2019
+// /___/   /\     Timestamp  : Mon May 13 01:51:55 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -23,13 +23,15 @@ module ILA(
     CLK,
     DATA,
     TRIG0,
-    TRIG1) /* synthesis syn_black_box syn_noprune=1 */;
+    TRIG1,
+    TRIG2) /* synthesis syn_black_box syn_noprune=1 */;
 
 
 inout [35 : 0] CONTROL;
 input CLK;
-input [229 : 0] DATA;
+input [413 : 0] DATA;
 input [11 : 0] TRIG0;
 input [11 : 0] TRIG1;
+input [11 : 0] TRIG2;
 
 endmodule

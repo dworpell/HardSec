@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri May 03 23:10:02 2019
+Mon May 13 23:24:39 2019
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -232,7 +232,7 @@ Pinout by Pin Number:
 |AF13      |           |IOBM     |IO_L2P_A23_2            |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |AF14      |           |IOBS     |IO_L4N_VREF_FOE_B_MOSI_2|UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |AF15      |           |IOBM     |IO_L6P_D7_2             |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
-|AF16      |puf_out    |IOB      |IO_L8P_D3_2             |OUTPUT   |LVCMOS25*  |2             |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|AF16      |           |IOBM     |IO_L8P_D3_2             |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |AF17      |           |         |GND                     |         |           |              |          |         |           |         |         |          |           |                |
 |AF18      |           |IOBM     |IO_L8P_CC_GC_4          |UNUSED   |           |4             |          |         |           |         |         |          |           |                |
 |AF19      |           |IOBS     |IO_L6N_GC_4             |UNUSED   |           |4             |          |         |           |         |         |          |           |                |
@@ -305,7 +305,7 @@ Pinout by Pin Number:
 |AH18      |           |IOBM     |IO_L9P_CC_GC_4          |UNUSED   |           |4             |          |         |           |         |         |          |           |                |
 |AH19      |           |IOBS     |IO_L2N_GC_D10_4         |UNUSED   |           |4             |          |         |           |         |         |          |           |                |
 |AH20      |           |IOBM     |IO_L2P_GC_D11_4         |UNUSED   |           |4             |          |         |           |         |         |          |           |                |
-|AH21      |           |         |VCCO_2                  |         |           |2             |          |         |           |         |2.50     |          |           |                |
+|AH21      |           |         |VCCO_2                  |         |           |2             |          |         |           |         |any******|          |           |                |
 |AH22      |           |IOBS     |IO_L0N_GC_D14_4         |UNUSED   |           |4             |          |         |           |         |         |          |           |                |
 |AH23      |           |IOBM     |IO_L2P_6                |UNUSED   |           |6             |          |         |           |         |         |          |           |                |
 |AH24      |           |IOBM     |IO_L0P_6                |UNUSED   |           |6             |          |         |           |         |         |          |           |                |
@@ -437,7 +437,7 @@ Pinout by Pin Number:
 |AM16      |           |IOBS     |IO_L16N_6               |UNUSED   |           |6             |          |         |           |         |         |          |           |                |
 |AM17      |           |IOBM     |IO_L19P_6               |UNUSED   |           |6             |          |         |           |         |         |          |           |                |
 |AM18      |           |IOBS     |IO_L17N_25              |UNUSED   |           |25            |          |         |           |         |         |          |           |                |
-|AM19      |           |         |VCCO_2                  |         |           |2             |          |         |           |         |2.50     |          |           |                |
+|AM19      |           |         |VCCO_2                  |         |           |2             |          |         |           |         |any******|          |           |                |
 |AM20      |           |IOBS     |IO_L13N_25              |UNUSED   |           |25            |          |         |           |         |         |          |           |                |
 |AM21      |           |IOBM     |IO_L13P_25              |UNUSED   |           |25            |          |         |           |         |         |          |           |                |
 |AM22      |           |IOBS     |IO_L16N_25              |UNUSED   |           |25            |          |         |           |         |         |          |           |                |
@@ -623,7 +623,7 @@ Pinout by Pin Number:
 |E4        |           |IPAD     |MGTREFCLKP_120          |UNUSED   |           |              |          |         |           |         |         |          |           |                |
 |E5        |           |         |GND                     |         |           |              |          |         |           |         |         |          |           |                |
 |E6        |           |IOBM     |IO_L19P_12              |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
-|E7        |           |IOBS     |IO_L19N_12              |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
+|E7        |puf_out    |IOB      |IO_L19N_12              |OUTPUT   |LVCMOS25*  |12            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |E8        |           |IOBS     |IO_L0N_20               |UNUSED   |           |20            |          |         |           |         |         |          |           |                |
 |E9        |           |IOBM     |IO_L0P_20               |UNUSED   |           |20            |          |         |           |         |         |          |           |                |
 |E10       |           |         |VCCO_20                 |         |           |20            |          |         |           |         |any******|          |           |                |
@@ -860,7 +860,7 @@ Pinout by Pin Number:
 |M6        |           |IOBM     |IO_L0P_12               |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
 |M7        |           |IOBM     |IO_L2P_12               |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
 |M8        |           |IOBM     |IO_L14P_20              |UNUSED   |           |20            |          |         |           |         |         |          |           |                |
-|M9        |           |         |VCCO_12                 |         |           |12            |          |         |           |         |any******|          |           |                |
+|M9        |           |         |VCCO_12                 |         |           |12            |          |         |           |         |2.50     |          |           |                |
 |M10       |           |IOBM     |IO_L16P_20              |UNUSED   |           |20            |          |         |           |         |         |          |           |                |
 |M11       |           |         |VCCAUX                  |         |           |              |          |         |           |         |2.5      |          |           |                |
 |M12       |           |         |GND                     |         |           |              |          |         |           |         |         |          |           |                |
@@ -891,7 +891,7 @@ Pinout by Pin Number:
 |N3        |           |         |MGTAVTTRX_112           |         |           |              |          |         |           |         |         |          |           |                |
 |N4        |           |         |GND                     |         |           |              |          |         |           |         |         |          |           |                |
 |N5        |           |IOBM     |IO_L3P_12               |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
-|N6        |           |         |VCCO_12                 |         |           |12            |          |         |           |         |any******|          |           |                |
+|N6        |           |         |VCCO_12                 |         |           |12            |          |         |           |         |2.50     |          |           |                |
 |N7        |           |IOBS     |IO_L1N_12               |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
 |N8        |           |IOBM     |IO_L1P_12               |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
 |N9        |           |IOBS     |IO_L18N_20              |UNUSED   |           |20            |          |         |           |         |         |          |           |                |
@@ -994,7 +994,7 @@ Pinout by Pin Number:
 |T4        |           |         |GND                     |         |           |              |          |         |           |         |         |          |           |                |
 |T5        |           |         |GND                     |         |           |              |          |         |           |         |         |          |           |                |
 |T6        |           |IOBS     |IO_L7N_12               |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
-|T7        |           |         |VCCO_12                 |         |           |12            |          |         |           |         |any******|          |           |                |
+|T7        |           |         |VCCO_12                 |         |           |12            |          |         |           |         |2.50     |          |           |                |
 |T8        |           |IOBM     |IO_L10P_CC_12           |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
 |T9        |           |IOBM     |IO_L18P_12              |UNUSED   |           |12            |          |         |           |         |         |          |           |                |
 |T10       |           |IOBM     |IO_L16P_12              |UNUSED   |           |12            |          |         |           |         |         |          |           |                |

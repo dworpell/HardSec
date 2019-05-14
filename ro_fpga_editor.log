@@ -1,0 +1,18 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\DanRW\Downloads\HardSec-master
+#Date/Time:
+#:T   Sun May 12 14:40:03 2019
+#------------------------------
+	#Reading ro.ncd...
+	#Loading device for application Rf_Device from file '5vlx110t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "ro" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+	#   "ringoscillator" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+	#Design creation date: 2019.05.12.18.35.40
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

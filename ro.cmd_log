@@ -126,3 +126,774 @@ map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -regist
 par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
 trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
 bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol high -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 
+xst -intstyle ise -ifn "C:/Users/DanRW/Downloads/HardSec-master/ro.xst" -ofn "C:/Users/DanRW/Downloads/HardSec-master/ro.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ringpuf.ucf -p xc5vlx110t-ff1136-1 ro.ngc ro.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ro_map.ncd ro.ngd ro.pcf 
+par -w -intstyle ise -ol std -mt off ro_map.ncd ro.ncd ro.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ro.twx ro.ncd -o ro.twr ro.pcf -ucf ringpuf.ucf 
+bitgen -intstyle ise -f ro.ut ro.ncd 

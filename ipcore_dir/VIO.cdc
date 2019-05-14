@@ -1,5 +1,5 @@
 #ChipScope Core Generator Project File Version 3.0
-#Fri May 03 19:46:25 Eastern Daylight Time 2019
+#Mon May 13 14:44:00 Eastern Daylight Time 2019
 SignalExport.asyncInput<0000>=AsyncIn[0]
 SignalExport.asyncInput<0001>=AsyncIn[1]
 SignalExport.asyncInput<0002>=AsyncIn[2]
@@ -203,7 +203,9 @@ SignalExport.asyncOutput<0006>=AsyncOut[6]
 SignalExport.asyncOutput<0007>=AsyncOut[7]
 SignalExport.asyncOutput<0008>=AsyncOut[8]
 SignalExport.asyncOutput<0009>=AsyncOut[9]
-SignalExport.asyncOutputWidth=10
+SignalExport.asyncOutput<0010>=AsyncOut[10]
+SignalExport.asyncOutput<0011>=AsyncOut[11]
+SignalExport.asyncOutputWidth=12
 SignalExport.syncInputWidth=0
 SignalExport.syncOutputWidth=0
 SignalExport.type=vio

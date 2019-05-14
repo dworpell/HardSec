@@ -8,7 +8,7 @@
 // \   \   \/     Version    : 14.7
 //  \   \         Application: Xilinx CORE Generator
 //  /   /         Filename   : VIO.v
-// /___/   /\     Timestamp  : Fri May 03 19:46:25 Eastern Daylight Time 2019
+// /___/   /\     Timestamp  : Mon May 13 14:44:00 Eastern Daylight Time 2019
 // \   \  /  \
 //  \___\/\___\
 //
@@ -26,6 +26,6 @@ module VIO(
 
 inout [35 : 0] CONTROL;
 input [191 : 0] ASYNC_IN;
-output [9 : 0] ASYNC_OUT;
+output [11 : 0] ASYNC_OUT;
 
 endmodule
